@@ -23,8 +23,13 @@ class TestKhzy:
         # self.driver.get("https://testerhome.com")
         # self.driver.implicitly_wait(10)
 
-        #单独使用浏览器 启动
-        self.driver = webdriver.Chrome()
+        # #单独使用浏览器 启动
+        # self.driver = webdriver.Chrome()
+        # self.driver.get("https://testerhome.com")
+        # self.driver.implicitly_wait(5)
+
+        #通过jenkins启动
+        self.driver = webdriver.Chrome(executable_path=self.config('driver','chrome_driver'))
         self.driver.get("https://testerhome.com")
         self.driver.implicitly_wait(5)
 
