@@ -1,0 +1,118 @@
+{
+  "uid" : "bd7c33b7668b5d1b",
+  "name" : "register-注册成功-全部合法",
+  "fullName" : "testcases.test_register.TestRegister#test_register",
+  "historyId" : "6c3581e6db6c2a2205085aa7db63cb92",
+  "time" : {
+    "start" : 1582730960209,
+    "stop" : 1582730960758,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1582730960016,
+      "stop" : 1582730960016,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1582730960208,
+      "stop" : 1582730960208,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc59d4cbe750e88",
+      "name" : "stdout",
+      "source" : "dc59d4cbe750e88.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1582730965360,
+      "stop" : 1582730965360,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "duxiuyandeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "34171-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 2, 'title': '注册成功-全部合法', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\",\"type\":0,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': 'OK', 'actual': '{\"code\":0,\"msg\":\"OK\",\"data\":{\"id\":9595555,\"reg_name\":\"shaoai\",\"mobile_phone\":\"15287249105\"},\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd7c33b7668b5d1b.json",
+  "parameterValues" : [ "{'case_id': 2, 'title': '注册成功-全部合法', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\",\"type\":0,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': 'OK', 'actual': '{\"code\":0,\"msg\":\"OK\",\"data\":{\"id\":9595555,\"reg_name\":\"shaoai\",\"mobile_phone\":\"15287249105\"},\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+}

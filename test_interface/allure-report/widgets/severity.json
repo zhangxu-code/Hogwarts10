@@ -1,0 +1,191 @@
+[ {
+  "uid" : "a89556b1ad4d67d3",
+  "name" : "register-注册成功-无昵称",
+  "time" : {
+    "start" : 1582730960762,
+    "stop" : 1582730961325,
+    "duration" : 563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd49fa8c11e6b035",
+  "name" : "register-手机号少于11位",
+  "time" : {
+    "start" : 1582730963576,
+    "stop" : 1582730963735,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96a1beb3b3c33f9d",
+  "name" : "login-手机号未注册",
+  "time" : {
+    "start" : 1582820345252,
+    "stop" : 1582820345786,
+    "duration" : 534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9e01b4864a443a7",
+  "name" : "register-昵称超过10",
+  "time" : {
+    "start" : 1582730962368,
+    "stop" : 1582730962858,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8968da057631561d",
+  "name" : "register-手机号为空",
+  "time" : {
+    "start" : 1582730962862,
+    "stop" : 1582730963013,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8b76754fd788cd8",
+  "name" : "register-注册成功-无类型",
+  "time" : {
+    "start" : 1582730961328,
+    "stop" : 1582730961837,
+    "duration" : 509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c138b8ae32c91206",
+  "name" : "register-全部为空",
+  "time" : {
+    "start" : 1582820345791,
+    "stop" : 1582820345997,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbc1fb0ac30f843e",
+  "name" : "register-注册成功-无类型，无昵称",
+  "time" : {
+    "start" : 1582730961840,
+    "stop" : 1582730962365,
+    "duration" : 525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30da37f77981aca8",
+  "name" : "register-密码少于8位",
+  "time" : {
+    "start" : 1582730964040,
+    "stop" : 1582730964516,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "957f1ea948fade5e",
+  "name" : "register-注册成功-全部合法",
+  "time" : {
+    "start" : 1582820346000,
+    "stop" : 1582820346560,
+    "duration" : 560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a804a7a3e368e295",
+  "name" : "login-正常登录",
+  "time" : {
+    "start" : 1582820342798,
+    "stop" : 1582820344579,
+    "duration" : 1781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c78fa9d844c1de4",
+  "name" : "login-手机号为空",
+  "time" : {
+    "start" : 1582820344583,
+    "stop" : 1582820344744,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ff4cdb1ea45c3c1",
+  "name" : "login-都为空",
+  "time" : {
+    "start" : 1582820345088,
+    "stop" : 1582820345248,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f38ecda21d5aa1ff",
+  "name" : "register-手机号已注册",
+  "time" : {
+    "start" : 1582730964987,
+    "stop" : 1582730965359,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f767d297e2817b8",
+  "name" : "login-密码为空",
+  "time" : {
+    "start" : 1582820344748,
+    "stop" : 1582820345084,
+    "duration" : 336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d9afa4e7151c422",
+  "name" : "register-密码为空",
+  "time" : {
+    "start" : 1582730963017,
+    "stop" : 1582730963572,
+    "duration" : 555
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e8462147a87ab6e",
+  "name" : "register-手机号大于11位",
+  "time" : {
+    "start" : 1582730963738,
+    "stop" : 1582730963885,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "267290e3faef6251",
+  "name" : "register-手机号格式非法",
+  "time" : {
+    "start" : 1582730963888,
+    "stop" : 1582730964036,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b98491bf4a7ac0e8",
+  "name" : "register-密码多于16位",
+  "time" : {
+    "start" : 1582730964520,
+    "stop" : 1582730964983,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

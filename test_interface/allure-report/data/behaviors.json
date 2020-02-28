@@ -1,0 +1,252 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "register-注册成功-无昵称",
+    "uid" : "a89556b1ad4d67d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730960762,
+      "stop" : 1582730961325,
+      "duration" : 563
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 3, 'title': '注册成功-无昵称', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\",\"type\":1}', 'method': 'post', 'expected': 'OK', 'actual': '{\"code\":0,\"msg\":\"OK\",\"data\":{\"id\":9595556,\"reg_name\":\"小柠檬\",\"mobile_phone\":\"15234608751\"},\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-注册成功-无类型",
+    "uid" : "e8b76754fd788cd8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730961328,
+      "stop" : 1582730961837,
+      "duration" : 509
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 4, 'title': '注册成功-无类型', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\",\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': 'OK', 'actual': '{\"code\":0,\"msg\":\"OK\",\"data\":{\"id\":9595557,\"reg_name\":\"shaoai\",\"mobile_phone\":\"15207862914\"},\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-注册成功-无类型，无昵称",
+    "uid" : "fbc1fb0ac30f843e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730961840,
+      "stop" : 1582730962365,
+      "duration" : 525
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 5, 'title': '注册成功-无类型，无昵称', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\"}', 'method': 'post', 'expected': 'OK', 'actual': '{\"code\":0,\"msg\":\"OK\",\"data\":{\"id\":9595558,\"reg_name\":\"小柠檬\",\"mobile_phone\":\"15230954827\"},\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-昵称超过10",
+    "uid" : "b9e01b4864a443a7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730962368,
+      "stop" : 1582730962858,
+      "duration" : 490
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 6, 'title': '昵称超过10', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\",\"type\":1,\"reg_name\":\"shaoai12345\"}', 'method': 'post', 'expected': '用户昵称长度超过10位', 'actual': '{\"code\":2,\"msg\":\"用户昵称长度超过10位\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-手机号为空",
+    "uid" : "8968da057631561d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730962862,
+      "stop" : 1582730963013,
+      "duration" : 151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 7, 'title': '手机号为空', 'url': '/member/register', 'data': '{\"mobile_phone\":\"\",\"pwd\":\"12345678\",\"type\":1,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '手机号为空', 'actual': '{\"code\":1,\"msg\":\"手机号为空\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-密码为空",
+    "uid" : "5d9afa4e7151c422",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730963017,
+      "stop" : 1582730963572,
+      "duration" : 555
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 8, 'title': '密码为空', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"\",\"type\":1,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '密码为空', 'actual': '{\"code\":1,\"msg\":\"密码为空\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-手机号少于11位",
+    "uid" : "bd49fa8c11e6b035",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730963576,
+      "stop" : 1582730963735,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 9, 'title': '手机号少于11位', 'url': '/member/register', 'data': '{\"mobile_phone\":\"1882162725\",\"pwd\":\"12345678\",\"type\":1,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '无效的手机格式', 'actual': '{\"code\":2,\"msg\":\"无效的手机格式\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-手机号大于11位",
+    "uid" : "1e8462147a87ab6e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730963738,
+      "stop" : 1582730963885,
+      "duration" : 147
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 10, 'title': '手机号大于11位', 'url': '/member/register', 'data': '{\"mobile_phone\":\"1882162725556\",\"pwd\":\"12345678\",\"type\":1,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '无效的手机格式', 'actual': '{\"code\":2,\"msg\":\"无效的手机格式\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-手机号格式非法",
+    "uid" : "267290e3faef6251",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730963888,
+      "stop" : 1582730964036,
+      "duration" : 148
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 11, 'title': '手机号格式非法', 'url': '/member/register', 'data': '{\"mobile_phone\":\"10000000000\",\"pwd\":\"12345678\",\"type\":0,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '无效的手机格式', 'actual': '{\"code\":2,\"msg\":\"无效的手机格式\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-密码少于8位",
+    "uid" : "30da37f77981aca8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730964040,
+      "stop" : 1582730964516,
+      "duration" : 476
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 12, 'title': '密码少于8位', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"1234567\",\"type\":1,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '密码格式为8到16位', 'actual': '{\"code\":2,\"msg\":\"密码格式为8到16位\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-密码多于16位",
+    "uid" : "b98491bf4a7ac0e8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730964520,
+      "stop" : 1582730964983,
+      "duration" : 463
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 13, 'title': '密码多于16位', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678123456789\",\"type\":1,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '密码格式为8到16位', 'actual': '{\"code\":2,\"msg\":\"密码格式为8到16位\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-手机号已注册",
+    "uid" : "f38ecda21d5aa1ff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582730964987,
+      "stop" : 1582730965359,
+      "duration" : 372
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 14, 'title': '手机号已注册', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{invest_user_tel}\",\"pwd\":\"12345678\",\"type\":1,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': '账号已存在', 'actual': '{\"code\":2,\"msg\":\"账号已存在\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "login-正常登录",
+    "uid" : "a804a7a3e368e295",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582820342798,
+      "stop" : 1582820344579,
+      "duration" : 1781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 1, 'title': '正常登录', 'url': '/member/login', 'data': '{\"mobile_phone\":\"{invest_user_tel}\",\"pwd\":\"12345678\"}', 'method': 'post', 'expected': '{\"code\":0,\"msg\":\"OK\"}', 'actual': '{\"code\":0,\"msg\":\"OK\",\"data\":{\"id\":907765,\"leave_amount\":500.0,\"mobile_phone\":\"15227958463\",\"reg_name\":\"shaoai\",\"reg_time\":\"2020-01-17 17:05:47.0\",\"type\":1,\"token_info\":{\"token_type\":\"Bearer\",\"expires_in\":\"2020-02-26 23:34:18\",\"token\":\"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjkwNzc2NSwiZXhwIjoxNTgyNzMxMjU4fQ.7ynPRsRR3Bp2gEwEDQw4zDpilpxybXvO_1_xwRv9tIRSeS20wfVn1AmRr9nNnjgx0xhqknrFyFuAs_9pr8cO9w\"}},\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "login-手机号为空",
+    "uid" : "7c78fa9d844c1de4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582820344583,
+      "stop" : 1582820344744,
+      "duration" : 161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 2, 'title': '手机号为空', 'url': '/member/login', 'data': '{\"mobile_phone\":\"\",\"pwd\":\"12345678\"}', 'method': 'post', 'expected': '{\"code\": 2,\"msg\": \"手机号码为空\"}', 'actual': '{\"code\":2,\"msg\":\"手机号码为空\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "login-密码为空",
+    "uid" : "9f767d297e2817b8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582820344748,
+      "stop" : 1582820345084,
+      "duration" : 336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 3, 'title': '密码为空', 'url': '/member/login', 'data': '{\"mobile_phone\":\"{invest_user_tel}\",\"pwd\":\"\"}', 'method': 'post', 'expected': '{\"code\": 2,\"msg\": \"密码为空\"}', 'actual': '{\"code\":2,\"msg\":\"密码为空\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "login-都为空",
+    "uid" : "5ff4cdb1ea45c3c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582820345088,
+      "stop" : 1582820345248,
+      "duration" : 160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 4, 'title': '都为空', 'url': '/member/login', 'data': '{\"mobile_phone\":\"\",\"pwd\":\"\"}', 'method': 'post', 'expected': '{\"code\": 2,\"msg\": \"手机号码为空\"}', 'actual': '{\"code\":2,\"msg\":\"手机号码为空\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "login-手机号未注册",
+    "uid" : "96a1beb3b3c33f9d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582820345252,
+      "stop" : 1582820345786,
+      "duration" : 534
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 5, 'title': '手机号未注册', 'url': '/member/login', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\"}', 'method': 'post', 'expected': '{\"code\": 1001,\"msg\": \"账号信息错误\"}', 'actual': '{\"code\":1001,\"msg\":\"账号信息错误\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-全部为空",
+    "uid" : "c138b8ae32c91206",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582820345791,
+      "stop" : 1582820345997,
+      "duration" : 206
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 1, 'title': '全部为空', 'url': '/member/register', 'data': '{\"mobile_phone\":\"\",\"pwd\":\"\"}', 'method': 'post', 'expected': '手机号为空', 'actual': '{\"code\":1,\"msg\":\"手机号为空\",\"data\":null,\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  }, {
+    "name" : "register-注册成功-全部合法",
+    "uid" : "957f1ea948fade5e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582820346000,
+      "stop" : 1582820346560,
+      "duration" : 560
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'case_id': 2, 'title': '注册成功-全部合法', 'url': '/member/register', 'data': '{\"mobile_phone\":\"{not_existed_tel}\",\"pwd\":\"12345678\",\"type\":0,\"reg_name\":\"shaoai\"}', 'method': 'post', 'expected': 'OK', 'actual': '{\"code\":0,\"msg\":\"OK\",\"data\":{\"id\":9596122,\"reg_name\":\"shaoai\",\"mobile_phone\":\"15220394185\"},\"copyright\":\"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved\"}', 'result': 'Success'}" ]
+  } ]
+}
