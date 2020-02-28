@@ -1,0 +1,141 @@
+[ {
+  "buildOrder" : 48,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/48/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 230063
+  }
+}, {
+  "buildOrder" : 47,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/47/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 130903
+  }
+}, {
+  "buildOrder" : 46,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/46/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 8022505
+  }
+}, {
+  "buildOrder" : 45,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/45/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7868906
+  }
+}, {
+  "buildOrder" : 44,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/44/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7723849
+  }
+}, {
+  "buildOrder" : 43,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/43/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 5221577
+  }
+}, {
+  "buildOrder" : 42,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/42/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4085418
+  }
+}, {
+  "buildOrder" : 41,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/41/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3877011
+  }
+}, {
+  "buildOrder" : 40,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/40/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3351102
+  }
+}, {
+  "buildOrder" : 39,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/39/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2869589
+  }
+}, {
+  "buildOrder" : 38,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/38/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 207154
+  }
+}, {
+  "buildOrder" : 37,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/37/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 109310
+  }
+}, {
+  "buildOrder" : 36,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/36/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3284
+  }
+}, {
+  "buildOrder" : 35,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/35/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 21744
+  }
+}, {
+  "buildOrder" : 34,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/34/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 20474
+  }
+}, {
+  "buildOrder" : 33,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/33/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 21783
+  }
+}, {
+  "buildOrder" : 32,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/32/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 21529
+  }
+}, {
+  "buildOrder" : 31,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/31/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 20857
+  }
+}, {
+  "buildOrder" : 30,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/30/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 21578
+  }
+}, {
+  "buildOrder" : 29,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/29/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 23648
+  }
+} ]

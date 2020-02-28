@@ -5,6 +5,7 @@ from time import sleep
 import pytest
 from selenium import webdriver
 from selenium.webdriver import DesiredCapabilities
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
@@ -12,7 +13,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class TestKhzy:
-    def config(self):
+    def get_config(self):
         config = configparser.ConfigParser()
         config.read(os.path.join(os.environ["HOME"],"iselenium.ini"))
         return config
@@ -29,8 +30,21 @@ class TestKhzy:
         # self.driver.implicitly_wait(5)
 
         #通过jenkins启动
-        self.driver = webdriver.Chrome(executable_path=self.config('driver','chrome_driver'))
+        config = self.get_config()#获取chromedriver路径
+        #控制是否采用无界面形式运行
+        try:
+            using_headless = os.environ["using_headless"]
+        except KeyError:
+            using_headless == None
+            print("没有配置环境变量 using_headless,按照有界面方式运行")
+        chrome_options = Options()
+        if using_headless is not None and using_headless.lower() == "true":
+            print("使用无界面方式运行")
+            chrome_options.add_argument("--headless")
+
+        self.driver = webdriver.Chrome(executable_path=config.get('driver','chrome_driver'),options=chrome_options)
         self.driver.get("https://testerhome.com")
+        self.driver.set_window_size(1366, 768)#页面复杂的需要加上这句
         self.driver.implicitly_wait(5)
 
     def teardown(self):
@@ -69,7 +83,7 @@ class TestKhzy:
 
     #搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的
 
-    #@pytest.mark.repeat(3)
+    # #@pytest.mark.repeat(3)
     def test_search(self):
         sleep(5)
         self.driver.find_element(By.NAME,"q").click()
@@ -79,3 +93,8 @@ class TestKhzy:
         sleep(2)
         assert "测试媛组织成立啦" in self.driver.page_source
 
+    # def test_baidu(self):
+    #     sleep(3)
+    #     self.driver.find_element_by_id("kw").send_keys("大宝")
+    #     self.driver.find_element_by_id("kw").send_keys(Keys.ENTER)
+    #     #assert "大宝" in self.driver.page_source

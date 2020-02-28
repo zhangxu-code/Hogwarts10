@@ -1,0 +1,2319 @@
+使用无界面方式运行
+CDwindow-17AA0160C12FD72B8F27631E76BA4C05
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="keywords" content="移动测试,游戏测试,性能测试,软件测试,软件测试社区,软件测试资料,软件测试工具,软件测试报告,软件测试方法,自动化测试,软件测试招聘,">
+  <meta name="description" content="TesterHome软件测试社区，人气最旺的软件测试技术门户，提供软件测试社区交流，测试沙龙。">
+  <title>TesterHome</title>
+  <link rel="icon" href="/assets/favicon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="apple-touch-icon-precomposed" href="/assets/ios-icon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="shortcut icon" href="/assets/big_logo-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="apple-touch-icon" href="/assets/favicon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+
+  <!-- http://www.favicon-generator.org/ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta content="True" name="HandheldFriendly">
+  <link rel="alternate" type="application/rss+xml" title="订阅最新帖" href="https://testerhome.com/topics/feed">
+  <link rel="stylesheet" media="screen" href="/assets/front-287044a6285b3034b763fd338d0385271dbca75872db865d6d714ba9b2628f34.css" data-turbolinks-track="reload">
+  
+  
+  <meta name="action-cable-url" content="/cable">
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="bfxFbuUiIE13zX4OtOEg+61bAKpqeAnxKo3VZSpY0OpAxYffoLULEQwENvIp7NAtz0B12cM+7DGR6EzmrHfSTA==">
+  
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/assets/app-2e25bd0620895741655ba1bbc50fd98051d726186a39517f82394d00405c5d0b.js" data-turbolinks-track="reload"></script>
+  
+</head>
+<body class="page-home" data-controller-name="home">
+
+    <div id="welcome-page" class="hide-page" style="">
+  <div style="background-image: url(https://testerhome.com/uploads/photo/2019/a069c24c-06d4-47d9-ae38-be3fcf8c493c.jpg); background-position: top center; background-attachment: fixed; background-size: cover; background-repeat: no-repeat; height:100%">
+</div>
+  <div class="welcome-action-button">
+    <div class="btn-group">
+      <a id="welcome-page-skip" type="button" class="btn btn-primary">跳过</a>
+    </div>
+    <div class="btn-group">
+      <a href="https://www.bagevent.com/event/6247937?bag_track=TH" type="button" class="btn btn-info">查看详情</a>
+    </div>
+  </div>
+  </div>
+
+  <div id="main-page">
+<div class="header">
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="navbar-header" id="navbar-header" data-turbolinks-permanent="">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+          <span class="sr-only">Toggle</span>
+          <i class="fa fa-reorder"></i>
+        </button>
+        <a href="/" class="navbar-brand"><b>TesterHome</b></a>
+
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar-collapse">
+        
+        <div id="main-nav-menu">
+  <ul class="nav navbar-nav">
+    <li class=""><a href="/topics">Topics</a></li><li class=""><a href="/bugs">Bug Tracker</a></li><li class=""><a href="/questions">QA</a></li><li class=""><a href="/teams">Teams</a></li><li class=""><a href="/jobs">招聘</a></li><li class=""><a href="/wiki">Wiki</a></li><li class=""><a href="/opensource_projects">开源项目</a></li><li class=""><a href="/sites">酷站</a></li>
+    <li><a href="/github_statistics">TTF榜单<span class="badge-new"></span></a></li>
+  </ul>
+</div>
+      </div>
+      <ul class="nav user-bar navbar-nav navbar-right">
+  <li><a href="/account/sign_up">Sign Up</a></li>
+  <li><a href="/account/sign_in">Sign In</a></li>
+</ul>
+
+<ul class="nav navbar-nav user-bar navbar-right">
+  <li class="nav-search hidden-xs hidden-sm hidden-md">
+    <form class="navbar-form form-search active" action="/search" method="GET">
+      <div class="form-group">
+        <input class="form-control" name="q" type="text" value="" placeholder="搜索本站内容">
+      </div>
+      <i class="fa btn-search fa-search"></i>
+    </form>
+  </li>
+
+</ul>
+
+    </div>
+  </nav>
+    <div id="corner" class="">
+      <a id="cornertip" href="">
+        <div id="c-content">
+          <div id="c-button">欢迎</div>
+        </div>
+      </a>
+    </div>
+</div>
+
+
+
+<div id="main" class="main-container container">
+  
+  
+  
+
+
+
+<!--周六、周二 深圳拼拼团
+https://testerhome.com/uploads/photo/2019/4a7d2dce-e71b-4151-aadd-dda1b640d517.png
+
+
+-->
+<a href="https://testerhome.com/topics/21805" target="_blank">
+<img src="https://testerhome.com/uploads/photo/2020/08e57426-711c-4311-ab4e-db74bae6c462.png" class="img-responsive" alt="Responsive image">
+</a>
+
+
+
+<!--
+<div class="panel-body">
+<div class="center" style="text-align:center">
+<p><img width="40px" title=":family:" alt="👪" src="https://twemoji.maxcdn.com/2/svg/1f46a.svg" class="twemoji"> <img title=":congratulations:" width="40px"  alt="㊗" src="https://twemoji.maxcdn.com/2/svg/3297.svg" class="twemoji"> <img title=":flag-cn:" width="40px"  alt="🇨🇳" src="https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f3.svg" class="twemoji"> <img title=":seven:" width="40px"  alt="7⃣" src="https://twemoji.maxcdn.com/2/svg/37-20e3.svg" class="twemoji"> <img title=":zero:" width="40px"  alt="0⃣" src="https://twemoji.maxcdn.com/2/svg/30-20e3.svg" class="twemoji"> <img title=":rocket:" width="40px" alt="🚀" src="https://twemoji.maxcdn.com/2/svg/1f680.svg" class="twemoji"> </p>
+</div>
+</div>
+-->
+
+
+
+
+<div class="row">
+  <div class="col-md-9 home-main">
+    
+    
+<div class="home_suggest_topics panel panel-default">
+  <div class="panel-heading">社区置顶</div>
+  <div class="panel-body topics row">
+    <div class="col-md-6">
+          <div class="topic media topic-22261">
+  <div class="avatar media-left">
+    <a title="erinlau (dbaplus社群)" href="/erinlau"><img class="media-object avatar-48" src="/uploads/user/avatar/50432/84a659.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="Gdevops 北京站：数十名企负责人带来 DevOps、AIOps、数据库实战分享" href="/topics/22261">Gdevops 北京站：数十名企负责人带来 DevOps、AIOps、数据库实战分享</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="dbaplus社群" title="dbaplus社群(erinlau)" href="/erinlau">dbaplus社群</a>
+    </div>
+  </div>
+  <div class="count media-right">
+  </div>
+</div>
+<div class="topic media topic-22258">
+  <div class="avatar media-left">
+    <a title="xushizhao (49875183)" href="/xushizhao"><img class="media-object avatar-48" src="/uploads/user/avatar/3539/6090f6.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="2020年 第一季度招聘贴" href="/topics/22258">2020年 第一季度招聘贴</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="49875183" title="49875183(xushizhao)" href="/xushizhao">49875183</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22258#reply-163605">9</a>
+  </div>
+</div>
+
+    </div>
+    <div class="col-md-6">
+          <div class="topic media topic-22281">
+  <div class="avatar media-left">
+    <a title="xushizhao (49875183)" href="/xushizhao"><img class="media-object avatar-48" src="/uploads/user/avatar/3539/6090f6.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="如何用技术应变突发情况？左耳朵耗子等多位大咖分享，11 场线上直播开放预约！" href="/topics/22281">如何用技术应变突发情况？左耳朵耗子等多位大咖分享，11 场线上直播开放预约！</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="49875183" title="49875183(xushizhao)" href="/xushizhao">49875183</a>
+    </div>
+  </div>
+  <div class="count media-right">
+  </div>
+</div>
+<div class="topic media topic-21854">
+  <div class="avatar media-left">
+    <a title="chenhengjie123 (陈恒捷)" href="/chenhengjie123"><img class="media-object avatar-48" src="/uploads/user/avatar/605.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="TesterHome 广州 2020 年上半年沙龙议题征集" href="/topics/21854">TesterHome 广州 2020 年上半年沙龙议题征集</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="陈恒捷" title="陈恒捷(chenhengjie123)" href="/chenhengjie123">陈恒捷</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21854#reply-162909">19</a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="home_suggest_topics panel panel-default">
+  <div class="panel-heading">
+    最新帖子
+    <div class="pull-right">
+      <a href="/topics/last">查看更多...</a>
+    </div>
+  </div>
+  <div class="panel-body topics row">
+    <div class="col-md-6">
+          <div class="topic media topic-22346">
+  <div class="avatar media-left">
+    <a title="yiwang" href="/yiwang"><img class="media-object avatar-48" src="/uploads/user/avatar/8177.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="广州地区有没有路由器或者 WiFi 相关测试的同学想找工作的？" href="/topics/22346">广州地区有没有路由器或者 WiFi 相关测试的同学想找工作的？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="yiwang" title="yiwang(yiwang)" href="/yiwang">yiwang</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22346#reply-163846">2</a>
+  </div>
+</div>
+<div class="topic media topic-22338">
+  <div class="avatar media-left">
+    <a title="mikezhou (狂师)" href="/mikezhou"><img class="media-object avatar-48" src="/uploads/user/avatar/7574.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="献给即将 35 岁的初学者，焦虑 or 出路？" href="/articles/22338">献给即将 35 岁的初学者，焦虑 or 出路？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="狂师" title="狂师(mikezhou)" href="/mikezhou">狂师</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22338#reply-163843">4</a>
+  </div>
+</div>
+<div class="topic media topic-22332">
+  <div class="avatar media-left">
+    <a title="shufeng (风花雪月)" href="/shufeng"><img class="media-object avatar-48" src="/uploads/user/avatar/8757/489e0f.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="cucumber feature 可以用 mvn test 命令传入想要执行 scenario 的 examples 参数吗？" href="/topics/22332">cucumber feature 可以用 mvn test 命令传入想要执行 scenario 的 examples 参数吗？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="风花雪月" title="风花雪月(shufeng)" href="/shufeng">风花雪月</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22332#reply-163762">1</a>
+  </div>
+</div>
+
+    </div>
+    <div class="col-md-6">
+          <div class="topic media topic-22347">
+  <div class="avatar media-left">
+    <a title="testmaruneko (Ms.Test)" href="/testmaruneko"><img class="media-object avatar-48" src="/uploads/user/avatar/8864/370196.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="初探 Robot Framework 之框架介紹 - 00" href="/topics/22347">初探 Robot Framework 之框架介紹 - 00</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Ms.Test" title="Ms.Test(testmaruneko)" href="/testmaruneko">Ms.Test</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22347#reply-163847">2</a>
+  </div>
+</div>
+<div class="topic media topic-22343">
+  <div class="avatar media-left">
+    <a title="jackey4200 (阳光)" href="/jackey4200"><img class="media-object avatar-48" src="/uploads/user/avatar/47881/7318bb.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="常见功能自动化测试工具汇总" href="/topics/22343">常见功能自动化测试工具汇总</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="阳光" title="阳光(jackey4200)" href="/jackey4200">阳光</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22343#reply-163855">5</a>
+  </div>
+</div>
+<div class="topic media topic-22335">
+  <div class="avatar media-left">
+    <a title="gentle-yu (gentle.yu先生)" href="/gentle-yu"><img class="media-object avatar-48" src="/uploads/user/avatar/47924/ffe511.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？" href="/topics/22335">部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="gentle.yu先生" title="gentle.yu先生(gentle-yu)" href="/gentle-yu">gentle.yu先生</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22335#reply-163831">8</a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="home_suggest_topics panel panel-default">
+  <div class="panel-heading">
+    社区精华帖
+    <div class="pull-right">
+      <a href="/topics/excellent">查看更多精华帖...</a>
+    </div>
+  </div>
+  <div class="panel-body topics row">
+        <div class="col-md-6 topics-group">
+          <div class="topic media topic-22231">
+  <div class="avatar media-left">
+    <a title="xinxi1990 (xinxi)" href="/xinxi1990"><img class="media-object avatar-48" src="/uploads/user/avatar/26433/ebf4e4.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="prometheus 监控测试服务器集群" href="/topics/22231">prometheus 监控测试服务器集群</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xinxi" title="xinxi(xinxi1990)" href="/xinxi1990">xinxi</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22231#reply-163265">12</a>
+  </div>
+</div>
+<div class="topic media topic-22170">
+  <div class="avatar media-left">
+    <a title="xinxi1990 (xinxi)" href="/xinxi1990"><img class="media-object avatar-48" src="/uploads/user/avatar/26433/ebf4e4.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="ELK-kibana 来源热点图" href="/topics/22170">ELK-kibana 来源热点图</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xinxi" title="xinxi(xinxi1990)" href="/xinxi1990">xinxi</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22170#reply-162929">2</a>
+  </div>
+</div>
+<div class="topic media topic-21847">
+  <div class="avatar media-left">
+    <a title="jiazurongyu (陈子昂)" href="/jiazurongyu"><img class="media-object avatar-48" src="/uploads/user/avatar/899.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="浅谈游戏安全 (一)" href="/topics/21847">浅谈游戏安全 (一)</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="陈子昂" title="陈子昂(jiazurongyu)" href="/jiazurongyu">陈子昂</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21847#reply-162700">12</a>
+  </div>
+</div>
+<div class="topic media topic-21484">
+  <div class="avatar media-left">
+    <a title="amazingTest (泰斯特test)" href="/amazingTest"><img class="media-object avatar-48" src="/uploads/user/avatar/31438/8216a3.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="智能测试平台之文本相似度校验" href="/articles/21484">智能测试平台之文本相似度校验</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="泰斯特test" title="泰斯特test(amazingTest)" href="/amazingTest">泰斯特test</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21484#reply-163789">19</a>
+  </div>
+</div>
+<div class="topic media topic-20962">
+  <div class="avatar media-left">
+    <a title="ELes (ELes)" href="/ELes"><img class="media-object avatar-48" src="/uploads/user/avatar/13443/7cc5ef.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title=" [jvm-sandbox-repeater 学习笔记][原理说明篇] 1 录制流程" href="/topics/20962"> [jvm-sandbox-repeater 学习笔记][原理说明篇] 1 录制流程</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="ELes" title="ELes(ELes)" href="/ELes">ELes</a>
+          for <a class="team-name" data-name="PPmoney" title="PPmoney(ppmoney)" href="/ppmoney">PPmoney</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20962#reply-161339">17</a>
+  </div>
+</div>
+<div class="topic media topic-20657">
+  <div class="avatar media-left">
+    <a title="13528427307 (Super-Ps)" href="/13528427307"><img class="media-object avatar-48" src="/uploads/user/avatar/16528/6cd6bb.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="使用 Macaca 测试 Electron 桌面 App" href="/topics/20657">使用 Macaca 测试 Electron 桌面 App</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Super-Ps" title="Super-Ps(13528427307)" href="/13528427307">Super-Ps</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20657#reply-162623">7</a>
+  </div>
+</div>
+<div class="topic media topic-20632">
+  <div class="avatar media-left">
+    <a title="yelanting (风雨夜阑听)" href="/yelanting"><img class="media-object avatar-48" src="/uploads/user/avatar/6848/bc0f90.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="Java 覆盖率 Jacoco 插桩的不同形式总结和踩坑记录" href="/topics/20632">Java 覆盖率 Jacoco 插桩的不同形式总结和踩坑记录</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="风雨夜阑听" title="风雨夜阑听(yelanting)" href="/yelanting">风雨夜阑听</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20632#reply-163598">35</a>
+  </div>
+</div>
+<div class="topic media topic-20491">
+  <div class="avatar media-left">
+    <a title="grizz" href="/grizz"><img class="media-object avatar-48" src="/uploads/user/avatar/26766/25f098.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="Tcloud 云测平台-多服务框架开源" href="/topics/20491">Tcloud 云测平台-多服务框架开源</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="grizz" title="grizz(grizz)" href="/grizz">grizz</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20491#reply-156337">55</a>
+  </div>
+</div>
+<div class="topic media topic-20134">
+  <div class="avatar media-left">
+    <a title="xinxi1990 (xinxi)" href="/xinxi1990"><img class="media-object avatar-48" src="/uploads/user/avatar/26433/ebf4e4.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="初识网络安全" href="/topics/20134">初识网络安全</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xinxi" title="xinxi(xinxi1990)" href="/xinxi1990">xinxi</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20134#reply-159549">24</a>
+  </div>
+</div>
+<div class="topic media topic-19978">
+  <div class="avatar media-left">
+    <a title="williamfzc-github (williamfzc)" href="/williamfzc-github"><img class="media-object avatar-48" src="/uploads/user/avatar/31164/3b6d79.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="图像分类、AI 与全自动性能测试" href="/topics/19978">图像分类、AI 与全自动性能测试</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="williamfzc" title="williamfzc(williamfzc-github)" href="/williamfzc-github">williamfzc</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/19978#reply-157345">53</a>
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-6 topics-group">
+          <div class="topic media topic-22309">
+  <div class="avatar media-left">
+    <a title="ShaoNianyr (少年)" href="/ShaoNianyr"><img class="media-object avatar-48" src="/uploads/user/avatar/47099/162a41.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能" href="/topics/22309">YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="少年" title="少年(ShaoNianyr)" href="/ShaoNianyr">少年</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22309#reply-163698">6</a>
+  </div>
+</div>
+<div class="topic media topic-22215">
+  <div class="avatar media-left">
+    <a title="williamfzc-github (williamfzc)" href="/williamfzc-github"><img class="media-object avatar-48" src="/uploads/user/avatar/31164/3b6d79.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="全自动化的抖音启动速度测试" href="/topics/22215">全自动化的抖音启动速度测试</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="williamfzc" title="williamfzc(williamfzc-github)" href="/williamfzc-github">williamfzc</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22215#reply-163821">9</a>
+  </div>
+</div>
+<div class="topic media topic-21928">
+  <div class="avatar media-left">
+    <a title="465998951 (Vince蔡培培)" href="/465998951"><img class="media-object avatar-48" src="/uploads/user/avatar/5143/697479.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="[2019年 终卷] 活得清醒" href="/topics/21928">[2019年 终卷] 活得清醒</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Vince蔡培培" title="Vince蔡培培(465998951)" href="/465998951">Vince蔡培培</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21928#reply-163405">43</a>
+  </div>
+</div>
+<div class="topic media topic-21647">
+  <div class="avatar media-left">
+    <a title="wenxiaomao1023 (wenxiaomao)" href="/wenxiaomao1023"><img class="media-object avatar-48" src="/uploads/user/avatar/40227/49d95e.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="基于 Scrcpy 的远程调试方案" href="/topics/21647">基于 Scrcpy 的远程调试方案</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="wenxiaomao" title="wenxiaomao(wenxiaomao1023)" href="/wenxiaomao1023">wenxiaomao</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21647#reply-163713">24</a>
+  </div>
+</div>
+<div class="topic media topic-21046">
+  <div class="avatar media-left">
+    <a title="ELes (ELes)" href="/ELes"><img class="media-object avatar-48" src="/uploads/user/avatar/13443/7cc5ef.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title=" [jvm-sandbox-repeater 学习笔记][原理说明篇] 2 回放流程" href="/topics/21046"> [jvm-sandbox-repeater 学习笔记][原理说明篇] 2 回放流程</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="ELes" title="ELes(ELes)" href="/ELes">ELes</a>
+          for <a class="team-name" data-name="PPmoney" title="PPmoney(ppmoney)" href="/ppmoney">PPmoney</a>
+    </div>
+  </div>
+  <div class="count media-right">
+  </div>
+</div>
+<div class="topic media topic-20869">
+  <div class="avatar media-left">
+    <a title="ELes (ELes)" href="/ELes"><img class="media-object avatar-48" src="/uploads/user/avatar/13443/7cc5ef.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title=" [jvm-sandbox-repeater 学习笔记][入门使用篇] 2 配置说明" href="/topics/20869"> [jvm-sandbox-repeater 学习笔记][入门使用篇] 2 配置说明</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="ELes" title="ELes(ELes)" href="/ELes">ELes</a>
+          for <a class="team-name" data-name="PPmoney" title="PPmoney(ppmoney)" href="/ppmoney">PPmoney</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20869#reply-158878">3</a>
+  </div>
+</div>
+<div class="topic media topic-20635">
+  <div class="avatar media-left">
+    <a title="xcxcxc (xc)" href="/xcxcxc"><img class="media-object avatar-48" src="/uploads/user/avatar/47150/77e195.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="ca..原来 stf 还可以这么玩..." href="/topics/20635">ca..原来 stf 还可以这么玩...</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xc" title="xc(xcxcxc)" href="/xcxcxc">xc</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20635#reply-161304">18</a>
+  </div>
+</div>
+<div class="topic media topic-20516">
+  <div class="avatar media-left">
+    <a title="cay (蒋刚毅)" href="/cay"><img class="media-object avatar-48" src="/uploads/user/avatar/8985/1522fe.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="[持续交付实践] 最后一公里，你需要一套具备质量思维的发布平台！" href="/topics/20516">[持续交付实践] 最后一公里，你需要一套具备质量思维的发布平台！</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="蒋刚毅" title="蒋刚毅(cay)" href="/cay">蒋刚毅</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20516#reply-155708">7</a>
+  </div>
+</div>
+<div class="topic media topic-20203">
+  <div class="avatar media-left">
+    <a title="13528427307 (Super-Ps)" href="/13528427307"><img class="media-object avatar-48" src="/uploads/user/avatar/16528/6cd6bb.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="如何给开源项目做贡献" href="/topics/20203">如何给开源项目做贡献</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Super-Ps" title="Super-Ps(13528427307)" href="/13528427307">Super-Ps</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20203#reply-153700">11</a>
+  </div>
+</div>
+<div class="topic media topic-19987">
+  <div class="avatar media-left">
+    <a title="helloparrotking (小P说性能压测)" href="/helloparrotking"><img class="media-object avatar-48" src="/uploads/user/avatar/14326/199ec8.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="如何做好性能压测 4-并发模式与 RPS 模式之争,性能压测领域的星球大战" href="/articles/19987">如何做好性能压测 4-并发模式与 RPS 模式之争,性能压测领域的星球大战</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="小P说性能压测" title="小P说性能压测(helloparrotking)" href="/helloparrotking">小P说性能压测</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/19987#reply-163597">20</a>
+  </div>
+</div>
+
+        </div>
+  </div>
+</div>
+
+
+        <div class="index-locations panel panel-default">
+      <div class="panel-heading">热门节点 <i class="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+      <div class="panel-body location-list" style="text-align:center;">
+            <span class="name"><a title="Appium" data-id="23" href="/topics/node23">Appium</a></span>
+            <span class="name"><a title="招聘" data-id="19" href="/topics/node19">招聘</a></span>
+            <span class="name"><a title="新手区" data-id="36" href="/topics/node36">新手区</a></span>
+            <span class="name"><a title="接口测试" data-id="62" href="/topics/node62">接口测试</a></span>
+            <span class="name"><a title="Bug 曝光台" data-id="47" href="/topics/node47">Bug 曝光台</a></span>
+            <span class="name"><a title="违规处理区" data-id="55" href="/topics/node55">违规处理区</a></span>
+            <span class="name"><a title="通用技术" data-id="25" href="/topics/node25">通用技术</a></span>
+            <span class="name"><a title="自动化工具" data-id="2" href="/topics/node2">自动化工具</a></span>
+            <span class="name"><a title="测试基础" data-id="33" href="/topics/node33">测试基础</a></span>
+            <span class="name"><a title="匿名吐槽" data-id="37" href="/topics/node37">匿名吐槽</a></span>
+            <span class="name"><a title="灌水" data-id="11" href="/topics/node11">灌水</a></span>
+            <span class="name"><a title="性能测试工具" data-id="3" href="/topics/node3">性能测试工具</a></span>
+            <span class="name"><a title="Macaca" data-id="68" href="/topics/node68">Macaca</a></span>
+            <span class="name"><a title="问答" data-id="20" href="/topics/node20">问答</a></span>
+            <span class="name"><a title="Selenium" data-id="73" href="/topics/node73">Selenium</a></span>
+            <span class="name"><a title="霍格沃兹测试学院" data-id="81" href="/topics/node81">霍格沃兹测试学院</a></span>
+            <span class="name"><a title="职业经验" data-id="12" href="/topics/node12">职业经验</a></span>
+            <span class="name"><a title="其他测试框架" data-id="31" href="/topics/node31">其他测试框架</a></span>
+            <span class="name"><a title="活动沙龙" data-id="24" href="/topics/node24">活动沙龙</a></span>
+            <span class="name"><a title="持续集成" data-id="46" href="/topics/node46">持续集成</a></span>
+            <span class="name"><a title="移动性能测试" data-id="32" href="/topics/node32">移动性能测试</a></span>
+            <span class="name"><a title="Python" data-id="149" href="/topics/node149">Python</a></span>
+            <span class="name"><a title="UiAutomator" data-id="53" href="/topics/node53">UiAutomator</a></span>
+            <span class="name"><a title="iOS 测试" data-id="51" href="/topics/node51">iOS 测试</a></span>
+            <span class="name"><a title="测试管理" data-id="44" href="/topics/node44">测试管理</a></span>
+            <span class="name"><a title="STF" data-id="137" href="/topics/node137">STF</a></span>
+            <span class="name"><a title="Robotium" data-id="39" href="/topics/node39">Robotium</a></span>
+            <span class="name"><a title="AI测试" data-id="134" href="/topics/node134">AI测试</a></span>
+            <span class="name"><a title="WeTest腾讯质量开发平台" data-id="80" href="/topics/node80">WeTest腾讯质量开发平台</a></span>
+            <span class="name"><a title="社区管理" data-id="13" href="/topics/node13">社区管理</a></span>
+            <span class="name"><a title="树洞" data-id="132" href="/topics/node132">树洞</a></span>
+            <span class="name"><a title="前端测试" data-id="16" href="/topics/node16">前端测试</a></span>
+            <span class="name"><a title="MTSC" data-id="129" href="/topics/node129">MTSC</a></span>
+            <span class="name"><a title="ATX" data-id="78" href="/topics/node78">ATX</a></span>
+            <span class="name"><a title="fir.im" data-id="49" href="/topics/node49">fir.im</a></span>
+      </div>
+    </div>
+
+
+      <div class="index-locations panel panel-default">
+    <div class="panel-heading">Popular locations <i class="fa fa-map-marker"></i> </div>
+    <div class="panel-body location-list" style="text-align:center;">
+        <span class="name"><a href="/users/city/%E5%8C%97%E4%BA%AC">北京</a></span>
+        <span class="name"><a href="/users/city/%E4%B8%8A%E6%B5%B7">上海</a></span>
+        <span class="name"><a href="/users/city/%E6%B7%B1%E5%9C%B3">深圳</a></span>
+        <span class="name"><a href="/users/city/%E6%9D%AD%E5%B7%9E">杭州</a></span>
+        <span class="name"><a href="/users/city/%E5%B9%BF%E5%B7%9E">广州</a></span>
+        <span class="name"><a href="/users/city/%E6%88%90%E9%83%BD">成都</a></span>
+        <span class="name"><a href="/users/city/%E5%8D%97%E4%BA%AC">南京</a></span>
+        <span class="name"><a href="/users/city/%E6%AD%A6%E6%B1%89">武汉</a></span>
+        <span class="name"><a href="/users/city/%E8%A5%BF%E5%AE%89">西安</a></span>
+        <span class="name"><a href="/users/city/%E8%8B%8F%E5%B7%9E">苏州</a></span>
+        <span class="name"><a href="/users/city/%E5%8E%A6%E9%97%A8">厦门</a></span>
+        <span class="name"><a href="/users/city/%E9%87%8D%E5%BA%86">重庆</a></span>
+    </div>
+  </div>
+
+    
+
+<div class="row home-icons hidden-sm hidden-xs">
+    <div class="col-md-3">
+        <div class="item item5">
+            <div class="icon">
+                <img src="https://testerhome.com/weixin.jpg" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="/topics/popular">公众号<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="item item6">
+            <div class="icon">
+                <img src="/photo/2016/45740b8b1487cc191b585bc2da978f06.jpeg" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="/topics/popular">个人号助手<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="item item6">
+            <div class="icon">
+                <img src="https://testerhome.com/uploads/photo/2017/94db8410-69e5-4cfa-b4c7-66d8783f2bc5.png!large" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="https://fir.im/w2j5">Android 客户端<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="item item6">
+            <div class="icon">
+                <img src="https://testerhome.com/uploads/photo/2016/bcff0e5a77254c32d9f35760dbc9b369.png!large" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="https://itunes.apple.com/us/app/testerhome-guan-fang-ke-hu/id1182812600?ls=1&amp;mt=8">iOS 客户端<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+  </div>
+  <div class="col-md-3 home-side-bar">
+    
+
+    <div class="home_suggest_topics panel panel-default">
+      <div class="panel-heading">七日最热 Top10</div>
+      <div class="panel-body">
+          <div class="sidebar_topic topic-22325">
+  <div class="title">
+            <span class="label label-default top3">1</span>
+
+    <a title="吐槽下我那神奇的上司" href="/topics/22325">
+        吐槽下我那神奇的上司
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22280">
+  <div class="title">
+            <span class="label label-default top3">2</span>
+
+    <a title="持续集成的开源方案攻略 (三) jenkins pipeline 与 k8s 集成" href="/topics/22280">
+        持续集成的开源方案攻略 (三) jenkins pipeline 与 k8s 集成
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22299">
+  <div class="title">
+            <span class="label label-default top3">3</span>
+
+    <a title="钉钉打卡有个 bug，可以替不在工位上的人打卡" href="/topics/22299">
+        钉钉打卡有个 bug，可以替不在工位上的人打卡
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22335">
+  <div class="title">
+            <span class="label label-default">4</span>
+
+    <a title="部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？" href="/topics/22335">
+        部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22310">
+  <div class="title">
+            <span class="label label-default">5</span>
+
+    <a title="请问有什么好用的自动化接口 diff 回归测试工具" href="/topics/22310">
+        请问有什么好用的自动化接口 diff 回归测试工具
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22279">
+  <div class="title">
+            <span class="label label-default">6</span>
+
+    <a title="appium，这种元素怎么定位。。。求助" href="/topics/22279">
+        appium，这种元素怎么定位。。。求助
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22331">
+  <div class="title">
+            <span class="label label-default">7</span>
+
+    <a title="一起聊聊到到底什么是 bug？是不符合需求？还是用户体验？" href="/topics/22331">
+        一起聊聊到到底什么是 bug？是不符合需求？还是用户体验？
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22309">
+  <div class="title">
+            <span class="label label-default">8</span>
+
+    <a title="YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能" href="/topics/22309">
+        YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22289">
+  <div class="title">
+            <span class="label label-default">9</span>
+
+    <a title="互联网人必备：推荐 4 款爬虫抓包神器" href="/topics/22289">
+        互联网人必备：推荐 4 款爬虫抓包神器
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22343">
+  <div class="title">
+            <span class="label label-default">10</span>
+
+    <a title="常见功能自动化测试工具汇总" href="/topics/22343">
+        常见功能自动化测试工具汇总
+</a>  </div>
+</div>
+
+      </div>
+    </div>
+
+    <div class="home_suggest_topics panel panel-default">
+      <div class="panel-heading">最新 bug <i class="fa fa-bug" aria-hidden="true"></i></div>
+      <div class="panel-body">
+        <div class="sidebar_topic topic-22299">
+  <div class="title">
+            <span class="label label-default top3">1</span>
+
+    <a title="钉钉打卡有个 bug，可以替不在工位上的人打卡" href="/topics/22299">
+        钉钉打卡有个 bug，可以替不在工位上的人打卡
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22229">
+  <div class="title">
+            <span class="label label-default top3">2</span>
+
+    <a title="ipad os13.4：腾讯课堂 qq 授权登录崩溃" href="/topics/22229">
+        ipad os13.4：腾讯课堂 qq 授权登录崩溃
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22228">
+  <div class="title">
+            <span class="label label-default top3">3</span>
+
+    <a title="PC 百度网盘客户端私密空间选择从网盘移入加载页面为空" href="/topics/22228">
+        PC 百度网盘客户端私密空间选择从网盘移入加载页面为空
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22185">
+  <div class="title">
+            <span class="label label-default">4</span>
+
+    <a title="pc 端支付宝首页乱码" href="/topics/22185">
+        pc 端支付宝首页乱码
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22152">
+  <div class="title">
+            <span class="label label-default">5</span>
+
+    <a title="TesterHome bug" href="/topics/22152">
+        TesterHome bug
+</a>  </div>
+</div>
+
+      </div>
+    </div>
+
+<div class="home_suggest_topics panel panel-default">
+<div class="panel-heading">最新收录开源测试项目</div>
+<div class="panel-body">
+    <div class="sidebar_topic topic-112">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/bbd5e60c-c7b0-406f-8533-438d4c6c92b4.png">
+        <a title="py-ops" href="/opensource_projects/112">
+        py-ops
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-111">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/4ea5c329-6ad4-4e00-ba93-9d926f3000a0.png">
+        <a title="[普兰能效平台] 研发协作一站式管理平台" href="/opensource_projects/sepp">
+        [普兰能效平台] 研发协作一站式管理平台
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-108">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/79530083-f50a-4b05-ab58-a331f5b09a16.png">
+        <a title="Flask-Application" href="/opensource_projects/108">
+        Flask-Application
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-110">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/f8759292-015f-44b7-ae8c-ad9bbe5aef24.png">
+        <a title="NVMe SSD 自动化平台" href="/opensource_projects/nvmessdautomation">
+        NVMe SSD 自动化平台
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-109">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/2ac07795-f015-4472-b2f7-e3ffb3e37243.ico">
+        <a title="rabbit测试平台" href="/opensource_projects/rabbit----">
+        rabbit测试平台
+</a>  </div>
+</div>
+
+</div>
+</div>
+
+
+<div id="hall-of-fames" class="panel panel-default">
+  <div class="panel-heading">最新加入 <i class="fa fa-fire"></i>（新同学）</div>
+  <div class="panel-body">
+        <div class="users-label">
+              <a class="users-label-item" href="/cathyPass" title="cathyloren">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50640/ad1ed2.jpg!sm">
+                cathyPass
+              </a>
+              <a class="users-label-item" href="/zhangyan-test" title="anne-zhang">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50626/462d9d.png!sm">
+                zhangyan-test
+              </a>
+              <a class="users-label-item" href="/testwalkman" title="testwalkman">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50623/51650b.jfif!sm">
+                testwalkman
+              </a>
+              <a class="users-label-item" href="/zhangxuetian" title="毛毛雪">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50614/334cb2.jpg!sm">
+                zhangxuetian
+              </a>
+              <a class="users-label-item" href="/Keylao" title="康康">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50613/621a01.jpg!sm">
+                Keylao
+              </a>
+              <a class="users-label-item" href="/Xxxxmas" title="">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50606/ad2ba8.jpg!sm">
+                Xxxxmas
+              </a>
+              <a class="users-label-item" href="/hiya-test" title="Hiya">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50597/ee6eb0.jpg!sm">
+                hiya-test
+              </a>
+              <a class="users-label-item" href="/vmture" title="vmture">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50590/ca6b50.png!sm">
+                vmture
+              </a>
+              <a class="users-label-item" href="/jamforward" title="forward">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50567/7a68e8.jpg!sm">
+                jamforward
+              </a>
+              <a class="users-label-item" href="/Painterson" title="Painterson">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50566/ed1741.jpg!sm">
+                Painterson
+              </a>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Statistics</div>
+      <ul class="list-group">
+        <li class="list-group-item">社区会员: 45648 人</li>
+        <li class="list-group-item">帖子数: 22087 个</li>
+        <li class="list-group-item">回帖数: 162794 条</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</div>
+
+  <footer class="footer" id="footer" data-turbolinks-permanent="">
+    <div class="container">
+      <div class="row">
+  <div class="col-sm-9">
+    <div class="media">
+      <div class="media-left">
+        <img src="https://testerhome.com/uploads/photo/2016/274e7ebc8ad0db0b7e718fceea3628a9.png!large" style="width:48px;">
+      </div>
+      <div class="media-body">
+
+        <div class="links">
+          <a href="https://testerhome.com/wiki/about">关于</a> / 
+          <a href="https://testerhome.com/users">活跃用户</a> / 
+          <a href="http://test-china.org/" target="_blank">中国移动互联网测试技术大会</a> / 
+          <a href="/topics/node13">反馈</a> / 
+          <a href="https://github.com/testerhome">Github</a> / 
+          <a href="https://testerhome.com//api-doc/">API</a> /  
+          <a href="/wiki/spreadtesterhome">帮助推广</a>
+
+        </div>
+        <div class="copyright" style="font-size:14px; color:#9CA4A9;margin-top:0px;margin-bottom:5px">
+          TesterHome 移动测试社区，由众多移动测试工作者维护，致力于推进国内测试技术。Inspired by RubyChina
+        </div>
+<div class="links" data-no-turbolink="">
+<span style="font-size:14px; color:#666;">友情链接</span><span style="margin-left:5px">
+          <a style="color:#317DDA;" href="http://wetest.qq.com/?from=links_testerhome" target="_blank">WeTest腾讯质量开放平台</a> / 
+          <a style="color:#317DDA;" href="http://www.infoq.com/cn" target="_blank">InfoQ</a> / 
+          <a style="color:#317DDA;" href="https://segmentfault.com/" target="_blank">SegmentFault</a> / 
+          <a style="color:#317DDA;" href="https://www.testwo.com/" target="_blank">测试窝</a> / 
+          <a style="color:#317DDA;" href="http://tieba.baidu.com/f?ie=utf-8&amp;kw=%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95&amp;fr=search" target="_blank">百度测试吧</a> /
+          <a style="color:#317DDA;" href="http://www.itdks.com/" target="_blank">IT大咖说</a>
+</span>
+    </div>
+        <div class="links" style="margin-top:0px" data-no-turbolink="">
+          <a href="?locale=zh-CN" rel="nofollow">简体中文</a> / <a href="?locale=zh-TW" rel="nofollow">正體中文</a> / <a href="?locale=en" rel="nofollow">English</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 friends">
+    <a href="http://www.ucloud.cn/?utm_source=zanzhu&amp;utm_campaign=testerhome&amp;utm_medium=display&amp;utm_content=yejiao&amp;ytag=testerhome_logo" target="_blank" rel="twipsy" style="display:inline-block;margin-right:5px;" data-original-title="本站服务器由 Ucloud 赞助"><img src="https://testerhome.com/photo/2016/4ce97c93f9433f654884c4839408327a.png" style="height:28px"></a>
+
+    <a href="http://www.sendcloud.net/" target="_blank" rel="twipsy" style="display:inline-block;margin-right:5px;" data-original-title="邮件服务由 SendCloud 赞助"><img src="https://testerhome.com/uploads/photo/2017/0f9fb5db-2472-4430-9f7e-6c051f28c3c9.png" style="height:28px"></a>
+
+  </div>
+</div>
+
+
+
+    </div>
+  </footer>
+
+<script type="text/javascript" data-turbolinks-eval="false">
+    App.root_url = "https://testerhome.com/";
+    App.asset_url = "";
+    App.twemoji_url = "https://twemoji.maxcdn.com/2";
+    App.locale = "en";
+</script>
+
+<script>
+    ga('create', 'UA-45014075-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+<div class="zoom-overlay"></div>
+</div>
+
+
+</body></html>
+CDwindow-17AA0160C12FD72B8F27631E76BA4C05
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="keywords" content="移动测试,游戏测试,性能测试,软件测试,软件测试社区,软件测试资料,软件测试工具,软件测试报告,软件测试方法,自动化测试,软件测试招聘,">
+  <meta name="description" content="TesterHome软件测试社区，人气最旺的软件测试技术门户，提供软件测试社区交流，测试沙龙。">
+  <title>TesterHome</title>
+  <link rel="icon" href="/assets/favicon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="apple-touch-icon-precomposed" href="/assets/ios-icon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="shortcut icon" href="/assets/big_logo-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+  <link rel="apple-touch-icon" href="/assets/favicon-cd32144f74c18746f3dce33e1040e7dfe4c07c8e611e37f3868b1c16b5095da3.png">
+
+  <!-- http://www.favicon-generator.org/ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <meta content="True" name="HandheldFriendly">
+  <link rel="alternate" type="application/rss+xml" title="订阅最新帖" href="https://testerhome.com/topics/feed">
+  <link rel="stylesheet" media="screen" href="/assets/front-287044a6285b3034b763fd338d0385271dbca75872db865d6d714ba9b2628f34.css" data-turbolinks-track="reload">
+  
+  
+  <meta name="action-cable-url" content="/cable">
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="bfxFbuUiIE13zX4OtOEg+61bAKpqeAnxKo3VZSpY0OpAxYffoLULEQwENvIp7NAtz0B12cM+7DGR6EzmrHfSTA==">
+  
+
+  <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="/assets/app-2e25bd0620895741655ba1bbc50fd98051d726186a39517f82394d00405c5d0b.js" data-turbolinks-track="reload"></script>
+  
+</head>
+<body class="page-home" data-controller-name="home">
+
+    <div id="welcome-page" class="hide-page" style="">
+  <div style="background-image: url(https://testerhome.com/uploads/photo/2019/a069c24c-06d4-47d9-ae38-be3fcf8c493c.jpg); background-position: top center; background-attachment: fixed; background-size: cover; background-repeat: no-repeat; height:100%">
+</div>
+  <div class="welcome-action-button">
+    <div class="btn-group">
+      <a id="welcome-page-skip" type="button" class="btn btn-primary">跳过</a>
+    </div>
+    <div class="btn-group">
+      <a href="https://www.bagevent.com/event/6247937?bag_track=TH" type="button" class="btn btn-info">查看详情</a>
+    </div>
+  </div>
+  </div>
+
+  <div id="main-page">
+<div class="header">
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="navbar-header" id="navbar-header" data-turbolinks-permanent="">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+          <span class="sr-only">Toggle</span>
+          <i class="fa fa-reorder"></i>
+        </button>
+        <a href="/" class="navbar-brand"><b>TesterHome</b></a>
+
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar-collapse">
+        
+        <div id="main-nav-menu">
+  <ul class="nav navbar-nav">
+    <li class=""><a href="/topics">Topics</a></li><li class=""><a href="/bugs">Bug Tracker</a></li><li class=""><a href="/questions">QA</a></li><li class=""><a href="/teams">Teams</a></li><li class=""><a href="/jobs">招聘</a></li><li class=""><a href="/wiki">Wiki</a></li><li class=""><a href="/opensource_projects">开源项目</a></li><li class=""><a href="/sites">酷站</a></li>
+    <li><a href="/github_statistics">TTF榜单<span class="badge-new"></span></a></li>
+  </ul>
+</div>
+      </div>
+      <ul class="nav user-bar navbar-nav navbar-right">
+  <li><a href="/account/sign_up">Sign Up</a></li>
+  <li><a href="/account/sign_in">Sign In</a></li>
+</ul>
+
+<ul class="nav navbar-nav user-bar navbar-right">
+  <li class="nav-search hidden-xs hidden-sm hidden-md">
+    <form class="navbar-form form-search active" action="/search" method="GET">
+      <div class="form-group">
+        <input class="form-control" name="q" type="text" value="" placeholder="搜索本站内容">
+      </div>
+      <i class="fa btn-search fa-search"></i>
+    </form>
+  </li>
+
+</ul>
+
+    </div>
+  </nav>
+    <div id="corner" class="">
+      <a id="cornertip" href="">
+        <div id="c-content">
+          <div id="c-button">欢迎</div>
+        </div>
+      </a>
+    </div>
+</div>
+
+
+
+<div id="main" class="main-container container">
+  
+  
+  
+
+
+
+<!--周六、周二 深圳拼拼团
+https://testerhome.com/uploads/photo/2019/4a7d2dce-e71b-4151-aadd-dda1b640d517.png
+
+
+-->
+<a href="https://testerhome.com/topics/21805" target="_blank">
+<img src="https://testerhome.com/uploads/photo/2020/08e57426-711c-4311-ab4e-db74bae6c462.png" class="img-responsive" alt="Responsive image">
+</a>
+
+
+
+<!--
+<div class="panel-body">
+<div class="center" style="text-align:center">
+<p><img width="40px" title=":family:" alt="👪" src="https://twemoji.maxcdn.com/2/svg/1f46a.svg" class="twemoji"> <img title=":congratulations:" width="40px"  alt="㊗" src="https://twemoji.maxcdn.com/2/svg/3297.svg" class="twemoji"> <img title=":flag-cn:" width="40px"  alt="🇨🇳" src="https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f3.svg" class="twemoji"> <img title=":seven:" width="40px"  alt="7⃣" src="https://twemoji.maxcdn.com/2/svg/37-20e3.svg" class="twemoji"> <img title=":zero:" width="40px"  alt="0⃣" src="https://twemoji.maxcdn.com/2/svg/30-20e3.svg" class="twemoji"> <img title=":rocket:" width="40px" alt="🚀" src="https://twemoji.maxcdn.com/2/svg/1f680.svg" class="twemoji"> </p>
+</div>
+</div>
+-->
+
+
+
+
+<div class="row">
+  <div class="col-md-9 home-main">
+    
+    
+<div class="home_suggest_topics panel panel-default">
+  <div class="panel-heading">社区置顶</div>
+  <div class="panel-body topics row">
+    <div class="col-md-6">
+          <div class="topic media topic-22261">
+  <div class="avatar media-left">
+    <a title="erinlau (dbaplus社群)" href="/erinlau"><img class="media-object avatar-48" src="/uploads/user/avatar/50432/84a659.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="Gdevops 北京站：数十名企负责人带来 DevOps、AIOps、数据库实战分享" href="/topics/22261">Gdevops 北京站：数十名企负责人带来 DevOps、AIOps、数据库实战分享</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="dbaplus社群" title="dbaplus社群(erinlau)" href="/erinlau">dbaplus社群</a>
+    </div>
+  </div>
+  <div class="count media-right">
+  </div>
+</div>
+<div class="topic media topic-22258">
+  <div class="avatar media-left">
+    <a title="xushizhao (49875183)" href="/xushizhao"><img class="media-object avatar-48" src="/uploads/user/avatar/3539/6090f6.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="2020年 第一季度招聘贴" href="/topics/22258">2020年 第一季度招聘贴</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="49875183" title="49875183(xushizhao)" href="/xushizhao">49875183</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22258#reply-163605">9</a>
+  </div>
+</div>
+
+    </div>
+    <div class="col-md-6">
+          <div class="topic media topic-22281">
+  <div class="avatar media-left">
+    <a title="xushizhao (49875183)" href="/xushizhao"><img class="media-object avatar-48" src="/uploads/user/avatar/3539/6090f6.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="如何用技术应变突发情况？左耳朵耗子等多位大咖分享，11 场线上直播开放预约！" href="/topics/22281">如何用技术应变突发情况？左耳朵耗子等多位大咖分享，11 场线上直播开放预约！</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="49875183" title="49875183(xushizhao)" href="/xushizhao">49875183</a>
+    </div>
+  </div>
+  <div class="count media-right">
+  </div>
+</div>
+<div class="topic media topic-21854">
+  <div class="avatar media-left">
+    <a title="chenhengjie123 (陈恒捷)" href="/chenhengjie123"><img class="media-object avatar-48" src="/uploads/user/avatar/605.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="TesterHome 广州 2020 年上半年沙龙议题征集" href="/topics/21854">TesterHome 广州 2020 年上半年沙龙议题征集</a>
+        <i class="fa fa-thumb-tack" title="置顶"></i>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="陈恒捷" title="陈恒捷(chenhengjie123)" href="/chenhengjie123">陈恒捷</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21854#reply-162909">19</a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="home_suggest_topics panel panel-default">
+  <div class="panel-heading">
+    最新帖子
+    <div class="pull-right">
+      <a href="/topics/last">查看更多...</a>
+    </div>
+  </div>
+  <div class="panel-body topics row">
+    <div class="col-md-6">
+          <div class="topic media topic-22346">
+  <div class="avatar media-left">
+    <a title="yiwang" href="/yiwang"><img class="media-object avatar-48" src="/uploads/user/avatar/8177.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="广州地区有没有路由器或者 WiFi 相关测试的同学想找工作的？" href="/topics/22346">广州地区有没有路由器或者 WiFi 相关测试的同学想找工作的？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="yiwang" title="yiwang(yiwang)" href="/yiwang">yiwang</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22346#reply-163846">2</a>
+  </div>
+</div>
+<div class="topic media topic-22338">
+  <div class="avatar media-left">
+    <a title="mikezhou (狂师)" href="/mikezhou"><img class="media-object avatar-48" src="/uploads/user/avatar/7574.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="献给即将 35 岁的初学者，焦虑 or 出路？" href="/articles/22338">献给即将 35 岁的初学者，焦虑 or 出路？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="狂师" title="狂师(mikezhou)" href="/mikezhou">狂师</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22338#reply-163843">4</a>
+  </div>
+</div>
+<div class="topic media topic-22332">
+  <div class="avatar media-left">
+    <a title="shufeng (风花雪月)" href="/shufeng"><img class="media-object avatar-48" src="/uploads/user/avatar/8757/489e0f.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="cucumber feature 可以用 mvn test 命令传入想要执行 scenario 的 examples 参数吗？" href="/topics/22332">cucumber feature 可以用 mvn test 命令传入想要执行 scenario 的 examples 参数吗？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="风花雪月" title="风花雪月(shufeng)" href="/shufeng">风花雪月</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22332#reply-163762">1</a>
+  </div>
+</div>
+
+    </div>
+    <div class="col-md-6">
+          <div class="topic media topic-22347">
+  <div class="avatar media-left">
+    <a title="testmaruneko (Ms.Test)" href="/testmaruneko"><img class="media-object avatar-48" src="/uploads/user/avatar/8864/370196.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="初探 Robot Framework 之框架介紹 - 00" href="/topics/22347">初探 Robot Framework 之框架介紹 - 00</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Ms.Test" title="Ms.Test(testmaruneko)" href="/testmaruneko">Ms.Test</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22347#reply-163847">2</a>
+  </div>
+</div>
+<div class="topic media topic-22343">
+  <div class="avatar media-left">
+    <a title="jackey4200 (阳光)" href="/jackey4200"><img class="media-object avatar-48" src="/uploads/user/avatar/47881/7318bb.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="常见功能自动化测试工具汇总" href="/topics/22343">常见功能自动化测试工具汇总</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="阳光" title="阳光(jackey4200)" href="/jackey4200">阳光</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22343#reply-163855">5</a>
+  </div>
+</div>
+<div class="topic media topic-22335">
+  <div class="avatar media-left">
+    <a title="gentle-yu (gentle.yu先生)" href="/gentle-yu"><img class="media-object avatar-48" src="/uploads/user/avatar/47924/ffe511.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？" href="/topics/22335">部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？</a>
+      
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="gentle.yu先生" title="gentle.yu先生(gentle-yu)" href="/gentle-yu">gentle.yu先生</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22335#reply-163831">8</a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="home_suggest_topics panel panel-default">
+  <div class="panel-heading">
+    社区精华帖
+    <div class="pull-right">
+      <a href="/topics/excellent">查看更多精华帖...</a>
+    </div>
+  </div>
+  <div class="panel-body topics row">
+        <div class="col-md-6 topics-group">
+          <div class="topic media topic-22231">
+  <div class="avatar media-left">
+    <a title="xinxi1990 (xinxi)" href="/xinxi1990"><img class="media-object avatar-48" src="/uploads/user/avatar/26433/ebf4e4.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="prometheus 监控测试服务器集群" href="/topics/22231">prometheus 监控测试服务器集群</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xinxi" title="xinxi(xinxi1990)" href="/xinxi1990">xinxi</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22231#reply-163265">12</a>
+  </div>
+</div>
+<div class="topic media topic-22170">
+  <div class="avatar media-left">
+    <a title="xinxi1990 (xinxi)" href="/xinxi1990"><img class="media-object avatar-48" src="/uploads/user/avatar/26433/ebf4e4.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="ELK-kibana 来源热点图" href="/topics/22170">ELK-kibana 来源热点图</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xinxi" title="xinxi(xinxi1990)" href="/xinxi1990">xinxi</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22170#reply-162929">2</a>
+  </div>
+</div>
+<div class="topic media topic-21847">
+  <div class="avatar media-left">
+    <a title="jiazurongyu (陈子昂)" href="/jiazurongyu"><img class="media-object avatar-48" src="/uploads/user/avatar/899.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="浅谈游戏安全 (一)" href="/topics/21847">浅谈游戏安全 (一)</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="陈子昂" title="陈子昂(jiazurongyu)" href="/jiazurongyu">陈子昂</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21847#reply-162700">12</a>
+  </div>
+</div>
+<div class="topic media topic-21484">
+  <div class="avatar media-left">
+    <a title="amazingTest (泰斯特test)" href="/amazingTest"><img class="media-object avatar-48" src="/uploads/user/avatar/31438/8216a3.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="智能测试平台之文本相似度校验" href="/articles/21484">智能测试平台之文本相似度校验</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="泰斯特test" title="泰斯特test(amazingTest)" href="/amazingTest">泰斯特test</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21484#reply-163789">19</a>
+  </div>
+</div>
+<div class="topic media topic-20962">
+  <div class="avatar media-left">
+    <a title="ELes (ELes)" href="/ELes"><img class="media-object avatar-48" src="/uploads/user/avatar/13443/7cc5ef.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title=" [jvm-sandbox-repeater 学习笔记][原理说明篇] 1 录制流程" href="/topics/20962"> [jvm-sandbox-repeater 学习笔记][原理说明篇] 1 录制流程</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="ELes" title="ELes(ELes)" href="/ELes">ELes</a>
+          for <a class="team-name" data-name="PPmoney" title="PPmoney(ppmoney)" href="/ppmoney">PPmoney</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20962#reply-161339">17</a>
+  </div>
+</div>
+<div class="topic media topic-20657">
+  <div class="avatar media-left">
+    <a title="13528427307 (Super-Ps)" href="/13528427307"><img class="media-object avatar-48" src="/uploads/user/avatar/16528/6cd6bb.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="使用 Macaca 测试 Electron 桌面 App" href="/topics/20657">使用 Macaca 测试 Electron 桌面 App</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Super-Ps" title="Super-Ps(13528427307)" href="/13528427307">Super-Ps</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20657#reply-162623">7</a>
+  </div>
+</div>
+<div class="topic media topic-20632">
+  <div class="avatar media-left">
+    <a title="yelanting (风雨夜阑听)" href="/yelanting"><img class="media-object avatar-48" src="/uploads/user/avatar/6848/bc0f90.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="Java 覆盖率 Jacoco 插桩的不同形式总结和踩坑记录" href="/topics/20632">Java 覆盖率 Jacoco 插桩的不同形式总结和踩坑记录</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="风雨夜阑听" title="风雨夜阑听(yelanting)" href="/yelanting">风雨夜阑听</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20632#reply-163598">35</a>
+  </div>
+</div>
+<div class="topic media topic-20491">
+  <div class="avatar media-left">
+    <a title="grizz" href="/grizz"><img class="media-object avatar-48" src="/uploads/user/avatar/26766/25f098.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="Tcloud 云测平台-多服务框架开源" href="/topics/20491">Tcloud 云测平台-多服务框架开源</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="grizz" title="grizz(grizz)" href="/grizz">grizz</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20491#reply-156337">55</a>
+  </div>
+</div>
+<div class="topic media topic-20134">
+  <div class="avatar media-left">
+    <a title="xinxi1990 (xinxi)" href="/xinxi1990"><img class="media-object avatar-48" src="/uploads/user/avatar/26433/ebf4e4.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="初识网络安全" href="/topics/20134">初识网络安全</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xinxi" title="xinxi(xinxi1990)" href="/xinxi1990">xinxi</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20134#reply-159549">24</a>
+  </div>
+</div>
+<div class="topic media topic-19978">
+  <div class="avatar media-left">
+    <a title="williamfzc-github (williamfzc)" href="/williamfzc-github"><img class="media-object avatar-48" src="/uploads/user/avatar/31164/3b6d79.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="图像分类、AI 与全自动性能测试" href="/topics/19978">图像分类、AI 与全自动性能测试</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="williamfzc" title="williamfzc(williamfzc-github)" href="/williamfzc-github">williamfzc</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/19978#reply-157345">53</a>
+  </div>
+</div>
+
+        </div>
+        <div class="col-md-6 topics-group">
+          <div class="topic media topic-22309">
+  <div class="avatar media-left">
+    <a title="ShaoNianyr (少年)" href="/ShaoNianyr"><img class="media-object avatar-48" src="/uploads/user/avatar/47099/162a41.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能" href="/topics/22309">YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="少年" title="少年(ShaoNianyr)" href="/ShaoNianyr">少年</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22309#reply-163698">6</a>
+  </div>
+</div>
+<div class="topic media topic-22215">
+  <div class="avatar media-left">
+    <a title="williamfzc-github (williamfzc)" href="/williamfzc-github"><img class="media-object avatar-48" src="/uploads/user/avatar/31164/3b6d79.jpeg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="全自动化的抖音启动速度测试" href="/topics/22215">全自动化的抖音启动速度测试</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="williamfzc" title="williamfzc(williamfzc-github)" href="/williamfzc-github">williamfzc</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/22215#reply-163821">9</a>
+  </div>
+</div>
+<div class="topic media topic-21928">
+  <div class="avatar media-left">
+    <a title="465998951 (Vince蔡培培)" href="/465998951"><img class="media-object avatar-48" src="/uploads/user/avatar/5143/697479.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="[2019年 终卷] 活得清醒" href="/topics/21928">[2019年 终卷] 活得清醒</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Vince蔡培培" title="Vince蔡培培(465998951)" href="/465998951">Vince蔡培培</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21928#reply-163405">43</a>
+  </div>
+</div>
+<div class="topic media topic-21647">
+  <div class="avatar media-left">
+    <a title="wenxiaomao1023 (wenxiaomao)" href="/wenxiaomao1023"><img class="media-object avatar-48" src="/uploads/user/avatar/40227/49d95e.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="基于 Scrcpy 的远程调试方案" href="/topics/21647">基于 Scrcpy 的远程调试方案</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="wenxiaomao" title="wenxiaomao(wenxiaomao1023)" href="/wenxiaomao1023">wenxiaomao</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/21647#reply-163713">24</a>
+  </div>
+</div>
+<div class="topic media topic-21046">
+  <div class="avatar media-left">
+    <a title="ELes (ELes)" href="/ELes"><img class="media-object avatar-48" src="/uploads/user/avatar/13443/7cc5ef.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title=" [jvm-sandbox-repeater 学习笔记][原理说明篇] 2 回放流程" href="/topics/21046"> [jvm-sandbox-repeater 学习笔记][原理说明篇] 2 回放流程</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="ELes" title="ELes(ELes)" href="/ELes">ELes</a>
+          for <a class="team-name" data-name="PPmoney" title="PPmoney(ppmoney)" href="/ppmoney">PPmoney</a>
+    </div>
+  </div>
+  <div class="count media-right">
+  </div>
+</div>
+<div class="topic media topic-20869">
+  <div class="avatar media-left">
+    <a title="ELes (ELes)" href="/ELes"><img class="media-object avatar-48" src="/uploads/user/avatar/13443/7cc5ef.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title=" [jvm-sandbox-repeater 学习笔记][入门使用篇] 2 配置说明" href="/topics/20869"> [jvm-sandbox-repeater 学习笔记][入门使用篇] 2 配置说明</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="ELes" title="ELes(ELes)" href="/ELes">ELes</a>
+          for <a class="team-name" data-name="PPmoney" title="PPmoney(ppmoney)" href="/ppmoney">PPmoney</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20869#reply-158878">3</a>
+  </div>
+</div>
+<div class="topic media topic-20635">
+  <div class="avatar media-left">
+    <a title="xcxcxc (xc)" href="/xcxcxc"><img class="media-object avatar-48" src="/uploads/user/avatar/47150/77e195.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="ca..原来 stf 还可以这么玩..." href="/topics/20635">ca..原来 stf 还可以这么玩...</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="xc" title="xc(xcxcxc)" href="/xcxcxc">xc</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20635#reply-161304">18</a>
+  </div>
+</div>
+<div class="topic media topic-20516">
+  <div class="avatar media-left">
+    <a title="cay (蒋刚毅)" href="/cay"><img class="media-object avatar-48" src="/uploads/user/avatar/8985/1522fe.jpg!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="[持续交付实践] 最后一公里，你需要一套具备质量思维的发布平台！" href="/topics/20516">[持续交付实践] 最后一公里，你需要一套具备质量思维的发布平台！</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="蒋刚毅" title="蒋刚毅(cay)" href="/cay">蒋刚毅</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20516#reply-155708">7</a>
+  </div>
+</div>
+<div class="topic media topic-20203">
+  <div class="avatar media-left">
+    <a title="13528427307 (Super-Ps)" href="/13528427307"><img class="media-object avatar-48" src="/uploads/user/avatar/16528/6cd6bb.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="如何给开源项目做贡献" href="/topics/20203">如何给开源项目做贡献</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="Super-Ps" title="Super-Ps(13528427307)" href="/13528427307">Super-Ps</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/20203#reply-153700">11</a>
+  </div>
+</div>
+<div class="topic media topic-19987">
+  <div class="avatar media-left">
+    <a title="helloparrotking (小P说性能压测)" href="/helloparrotking"><img class="media-object avatar-48" src="/uploads/user/avatar/14326/199ec8.png!md"></a>
+  </div>
+  <div class="infos media-body">
+    <div class="title media-heading">
+      <a title="如何做好性能压测 4-并发模式与 RPS 模式之争,性能压测领域的星球大战" href="/articles/19987">如何做好性能压测 4-并发模式与 RPS 模式之争,性能压测领域的星球大战</a>
+      <i title="" class="fa fa-diamond" data-toggle="tooltip" data-original-title="精华帖"></i>
+      
+    </div>
+    <div class="info">
+      <a class="user-name" data-name="小P说性能压测" title="小P说性能压测(helloparrotking)" href="/helloparrotking">小P说性能压测</a>
+    </div>
+  </div>
+  <div class="count media-right">
+      <a class="state-false" href="/topics/19987#reply-163597">20</a>
+  </div>
+</div>
+
+        </div>
+  </div>
+</div>
+
+
+        <div class="index-locations panel panel-default">
+      <div class="panel-heading">热门节点 <i class="fa fa-dot-circle-o" aria-hidden="true"></i></div>
+      <div class="panel-body location-list" style="text-align:center;">
+            <span class="name"><a title="Appium" data-id="23" href="/topics/node23">Appium</a></span>
+            <span class="name"><a title="招聘" data-id="19" href="/topics/node19">招聘</a></span>
+            <span class="name"><a title="新手区" data-id="36" href="/topics/node36">新手区</a></span>
+            <span class="name"><a title="接口测试" data-id="62" href="/topics/node62">接口测试</a></span>
+            <span class="name"><a title="Bug 曝光台" data-id="47" href="/topics/node47">Bug 曝光台</a></span>
+            <span class="name"><a title="违规处理区" data-id="55" href="/topics/node55">违规处理区</a></span>
+            <span class="name"><a title="通用技术" data-id="25" href="/topics/node25">通用技术</a></span>
+            <span class="name"><a title="自动化工具" data-id="2" href="/topics/node2">自动化工具</a></span>
+            <span class="name"><a title="测试基础" data-id="33" href="/topics/node33">测试基础</a></span>
+            <span class="name"><a title="匿名吐槽" data-id="37" href="/topics/node37">匿名吐槽</a></span>
+            <span class="name"><a title="灌水" data-id="11" href="/topics/node11">灌水</a></span>
+            <span class="name"><a title="性能测试工具" data-id="3" href="/topics/node3">性能测试工具</a></span>
+            <span class="name"><a title="Macaca" data-id="68" href="/topics/node68">Macaca</a></span>
+            <span class="name"><a title="问答" data-id="20" href="/topics/node20">问答</a></span>
+            <span class="name"><a title="Selenium" data-id="73" href="/topics/node73">Selenium</a></span>
+            <span class="name"><a title="霍格沃兹测试学院" data-id="81" href="/topics/node81">霍格沃兹测试学院</a></span>
+            <span class="name"><a title="职业经验" data-id="12" href="/topics/node12">职业经验</a></span>
+            <span class="name"><a title="其他测试框架" data-id="31" href="/topics/node31">其他测试框架</a></span>
+            <span class="name"><a title="活动沙龙" data-id="24" href="/topics/node24">活动沙龙</a></span>
+            <span class="name"><a title="持续集成" data-id="46" href="/topics/node46">持续集成</a></span>
+            <span class="name"><a title="移动性能测试" data-id="32" href="/topics/node32">移动性能测试</a></span>
+            <span class="name"><a title="Python" data-id="149" href="/topics/node149">Python</a></span>
+            <span class="name"><a title="UiAutomator" data-id="53" href="/topics/node53">UiAutomator</a></span>
+            <span class="name"><a title="iOS 测试" data-id="51" href="/topics/node51">iOS 测试</a></span>
+            <span class="name"><a title="测试管理" data-id="44" href="/topics/node44">测试管理</a></span>
+            <span class="name"><a title="STF" data-id="137" href="/topics/node137">STF</a></span>
+            <span class="name"><a title="Robotium" data-id="39" href="/topics/node39">Robotium</a></span>
+            <span class="name"><a title="AI测试" data-id="134" href="/topics/node134">AI测试</a></span>
+            <span class="name"><a title="WeTest腾讯质量开发平台" data-id="80" href="/topics/node80">WeTest腾讯质量开发平台</a></span>
+            <span class="name"><a title="社区管理" data-id="13" href="/topics/node13">社区管理</a></span>
+            <span class="name"><a title="树洞" data-id="132" href="/topics/node132">树洞</a></span>
+            <span class="name"><a title="前端测试" data-id="16" href="/topics/node16">前端测试</a></span>
+            <span class="name"><a title="MTSC" data-id="129" href="/topics/node129">MTSC</a></span>
+            <span class="name"><a title="ATX" data-id="78" href="/topics/node78">ATX</a></span>
+            <span class="name"><a title="fir.im" data-id="49" href="/topics/node49">fir.im</a></span>
+      </div>
+    </div>
+
+
+      <div class="index-locations panel panel-default">
+    <div class="panel-heading">Popular locations <i class="fa fa-map-marker"></i> </div>
+    <div class="panel-body location-list" style="text-align:center;">
+        <span class="name"><a href="/users/city/%E5%8C%97%E4%BA%AC">北京</a></span>
+        <span class="name"><a href="/users/city/%E4%B8%8A%E6%B5%B7">上海</a></span>
+        <span class="name"><a href="/users/city/%E6%B7%B1%E5%9C%B3">深圳</a></span>
+        <span class="name"><a href="/users/city/%E6%9D%AD%E5%B7%9E">杭州</a></span>
+        <span class="name"><a href="/users/city/%E5%B9%BF%E5%B7%9E">广州</a></span>
+        <span class="name"><a href="/users/city/%E6%88%90%E9%83%BD">成都</a></span>
+        <span class="name"><a href="/users/city/%E5%8D%97%E4%BA%AC">南京</a></span>
+        <span class="name"><a href="/users/city/%E6%AD%A6%E6%B1%89">武汉</a></span>
+        <span class="name"><a href="/users/city/%E8%A5%BF%E5%AE%89">西安</a></span>
+        <span class="name"><a href="/users/city/%E8%8B%8F%E5%B7%9E">苏州</a></span>
+        <span class="name"><a href="/users/city/%E5%8E%A6%E9%97%A8">厦门</a></span>
+        <span class="name"><a href="/users/city/%E9%87%8D%E5%BA%86">重庆</a></span>
+    </div>
+  </div>
+
+    
+
+<div class="row home-icons hidden-sm hidden-xs">
+    <div class="col-md-3">
+        <div class="item item5">
+            <div class="icon">
+                <img src="https://testerhome.com/weixin.jpg" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="/topics/popular">公众号<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="item item6">
+            <div class="icon">
+                <img src="/photo/2016/45740b8b1487cc191b585bc2da978f06.jpeg" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="/topics/popular">个人号助手<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="item item6">
+            <div class="icon">
+                <img src="https://testerhome.com/uploads/photo/2017/94db8410-69e5-4cfa-b4c7-66d8783f2bc5.png!large" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="https://fir.im/w2j5">Android 客户端<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="item item6">
+            <div class="icon">
+                <img src="https://testerhome.com/uploads/photo/2016/bcff0e5a77254c32d9f35760dbc9b369.png!large" width="100%" height="100%">
+            </div>
+            <div class="text">
+                <a href="https://itunes.apple.com/us/app/testerhome-guan-fang-ke-hu/id1182812600?ls=1&amp;mt=8">iOS 客户端<i class="pull-right fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+  </div>
+  <div class="col-md-3 home-side-bar">
+    
+
+    <div class="home_suggest_topics panel panel-default">
+      <div class="panel-heading">七日最热 Top10</div>
+      <div class="panel-body">
+          <div class="sidebar_topic topic-22325">
+  <div class="title">
+            <span class="label label-default top3">1</span>
+
+    <a title="吐槽下我那神奇的上司" href="/topics/22325">
+        吐槽下我那神奇的上司
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22280">
+  <div class="title">
+            <span class="label label-default top3">2</span>
+
+    <a title="持续集成的开源方案攻略 (三) jenkins pipeline 与 k8s 集成" href="/topics/22280">
+        持续集成的开源方案攻略 (三) jenkins pipeline 与 k8s 集成
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22299">
+  <div class="title">
+            <span class="label label-default top3">3</span>
+
+    <a title="钉钉打卡有个 bug，可以替不在工位上的人打卡" href="/topics/22299">
+        钉钉打卡有个 bug，可以替不在工位上的人打卡
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22335">
+  <div class="title">
+            <span class="label label-default">4</span>
+
+    <a title="部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？" href="/topics/22335">
+        部署在 linux 服务器上的 Jenkins 到底能否实现 ios 项目的自动编译部署？？？
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22310">
+  <div class="title">
+            <span class="label label-default">5</span>
+
+    <a title="请问有什么好用的自动化接口 diff 回归测试工具" href="/topics/22310">
+        请问有什么好用的自动化接口 diff 回归测试工具
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22279">
+  <div class="title">
+            <span class="label label-default">6</span>
+
+    <a title="appium，这种元素怎么定位。。。求助" href="/topics/22279">
+        appium，这种元素怎么定位。。。求助
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22331">
+  <div class="title">
+            <span class="label label-default">7</span>
+
+    <a title="一起聊聊到到底什么是 bug？是不符合需求？还是用户体验？" href="/topics/22331">
+        一起聊聊到到底什么是 bug？是不符合需求？还是用户体验？
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22309">
+  <div class="title">
+            <span class="label label-default">8</span>
+
+    <a title="YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能" href="/topics/22309">
+        YApi 服务端测试新增 globalCookie ，兼容自动化触发服务端测试功能
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22289">
+  <div class="title">
+            <span class="label label-default">9</span>
+
+    <a title="互联网人必备：推荐 4 款爬虫抓包神器" href="/topics/22289">
+        互联网人必备：推荐 4 款爬虫抓包神器
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22343">
+  <div class="title">
+            <span class="label label-default">10</span>
+
+    <a title="常见功能自动化测试工具汇总" href="/topics/22343">
+        常见功能自动化测试工具汇总
+</a>  </div>
+</div>
+
+      </div>
+    </div>
+
+    <div class="home_suggest_topics panel panel-default">
+      <div class="panel-heading">最新 bug <i class="fa fa-bug" aria-hidden="true"></i></div>
+      <div class="panel-body">
+        <div class="sidebar_topic topic-22299">
+  <div class="title">
+            <span class="label label-default top3">1</span>
+
+    <a title="钉钉打卡有个 bug，可以替不在工位上的人打卡" href="/topics/22299">
+        钉钉打卡有个 bug，可以替不在工位上的人打卡
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22229">
+  <div class="title">
+            <span class="label label-default top3">2</span>
+
+    <a title="ipad os13.4：腾讯课堂 qq 授权登录崩溃" href="/topics/22229">
+        ipad os13.4：腾讯课堂 qq 授权登录崩溃
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22228">
+  <div class="title">
+            <span class="label label-default top3">3</span>
+
+    <a title="PC 百度网盘客户端私密空间选择从网盘移入加载页面为空" href="/topics/22228">
+        PC 百度网盘客户端私密空间选择从网盘移入加载页面为空
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22185">
+  <div class="title">
+            <span class="label label-default">4</span>
+
+    <a title="pc 端支付宝首页乱码" href="/topics/22185">
+        pc 端支付宝首页乱码
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-22152">
+  <div class="title">
+            <span class="label label-default">5</span>
+
+    <a title="TesterHome bug" href="/topics/22152">
+        TesterHome bug
+</a>  </div>
+</div>
+
+      </div>
+    </div>
+
+<div class="home_suggest_topics panel panel-default">
+<div class="panel-heading">最新收录开源测试项目</div>
+<div class="panel-body">
+    <div class="sidebar_topic topic-112">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/bbd5e60c-c7b0-406f-8533-438d4c6c92b4.png">
+        <a title="py-ops" href="/opensource_projects/112">
+        py-ops
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-111">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/4ea5c329-6ad4-4e00-ba93-9d926f3000a0.png">
+        <a title="[普兰能效平台] 研发协作一站式管理平台" href="/opensource_projects/sepp">
+        [普兰能效平台] 研发协作一站式管理平台
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-108">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/79530083-f50a-4b05-ab58-a331f5b09a16.png">
+        <a title="Flask-Application" href="/opensource_projects/108">
+        Flask-Application
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-110">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/f8759292-015f-44b7-ae8c-ad9bbe5aef24.png">
+        <a title="NVMe SSD 自动化平台" href="/opensource_projects/nvmessdautomation">
+        NVMe SSD 自动化平台
+</a>  </div>
+</div>
+<div class="sidebar_topic topic-109">
+  <div class="title">
+        <img class="avatar-small" src="/uploads/opensource_project/2019/2ac07795-f015-4472-b2f7-e3ffb3e37243.ico">
+        <a title="rabbit测试平台" href="/opensource_projects/rabbit----">
+        rabbit测试平台
+</a>  </div>
+</div>
+
+</div>
+</div>
+
+
+<div id="hall-of-fames" class="panel panel-default">
+  <div class="panel-heading">最新加入 <i class="fa fa-fire"></i>（新同学）</div>
+  <div class="panel-body">
+        <div class="users-label">
+              <a class="users-label-item" href="/cathyPass" title="cathyloren">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50640/ad1ed2.jpg!sm">
+                cathyPass
+              </a>
+              <a class="users-label-item" href="/zhangyan-test" title="anne-zhang">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50626/462d9d.png!sm">
+                zhangyan-test
+              </a>
+              <a class="users-label-item" href="/testwalkman" title="testwalkman">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50623/51650b.jfif!sm">
+                testwalkman
+              </a>
+              <a class="users-label-item" href="/zhangxuetian" title="毛毛雪">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50614/334cb2.jpg!sm">
+                zhangxuetian
+              </a>
+              <a class="users-label-item" href="/Keylao" title="康康">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50613/621a01.jpg!sm">
+                Keylao
+              </a>
+              <a class="users-label-item" href="/Xxxxmas" title="">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50606/ad2ba8.jpg!sm">
+                Xxxxmas
+              </a>
+              <a class="users-label-item" href="/hiya-test" title="Hiya">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50597/ee6eb0.jpg!sm">
+                hiya-test
+              </a>
+              <a class="users-label-item" href="/vmture" title="vmture">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50590/ca6b50.png!sm">
+                vmture
+              </a>
+              <a class="users-label-item" href="/jamforward" title="forward">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50567/7a68e8.jpg!sm">
+                jamforward
+              </a>
+              <a class="users-label-item" href="/Painterson" title="Painterson">
+                <img class="avatar-small inline-block" src="/uploads/user/avatar/50566/ed1741.jpg!sm">
+                Painterson
+              </a>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Statistics</div>
+      <ul class="list-group">
+        <li class="list-group-item">社区会员: 45648 人</li>
+        <li class="list-group-item">帖子数: 22087 个</li>
+        <li class="list-group-item">回帖数: 162794 条</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</div>
+
+  <footer class="footer" id="footer" data-turbolinks-permanent="">
+    <div class="container">
+      <div class="row">
+  <div class="col-sm-9">
+    <div class="media">
+      <div class="media-left">
+        <img src="https://testerhome.com/uploads/photo/2016/274e7ebc8ad0db0b7e718fceea3628a9.png!large" style="width:48px;">
+      </div>
+      <div class="media-body">
+
+        <div class="links">
+          <a href="https://testerhome.com/wiki/about">关于</a> / 
+          <a href="https://testerhome.com/users">活跃用户</a> / 
+          <a href="http://test-china.org/" target="_blank">中国移动互联网测试技术大会</a> / 
+          <a href="/topics/node13">反馈</a> / 
+          <a href="https://github.com/testerhome">Github</a> / 
+          <a href="https://testerhome.com//api-doc/">API</a> /  
+          <a href="/wiki/spreadtesterhome">帮助推广</a>
+
+        </div>
+        <div class="copyright" style="font-size:14px; color:#9CA4A9;margin-top:0px;margin-bottom:5px">
+          TesterHome 移动测试社区，由众多移动测试工作者维护，致力于推进国内测试技术。Inspired by RubyChina
+        </div>
+<div class="links" data-no-turbolink="">
+<span style="font-size:14px; color:#666;">友情链接</span><span style="margin-left:5px">
+          <a style="color:#317DDA;" href="http://wetest.qq.com/?from=links_testerhome" target="_blank">WeTest腾讯质量开放平台</a> / 
+          <a style="color:#317DDA;" href="http://www.infoq.com/cn" target="_blank">InfoQ</a> / 
+          <a style="color:#317DDA;" href="https://segmentfault.com/" target="_blank">SegmentFault</a> / 
+          <a style="color:#317DDA;" href="https://www.testwo.com/" target="_blank">测试窝</a> / 
+          <a style="color:#317DDA;" href="http://tieba.baidu.com/f?ie=utf-8&amp;kw=%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95&amp;fr=search" target="_blank">百度测试吧</a> /
+          <a style="color:#317DDA;" href="http://www.itdks.com/" target="_blank">IT大咖说</a>
+</span>
+    </div>
+        <div class="links" style="margin-top:0px" data-no-turbolink="">
+          <a href="?locale=zh-CN" rel="nofollow">简体中文</a> / <a href="?locale=zh-TW" rel="nofollow">正體中文</a> / <a href="?locale=en" rel="nofollow">English</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 friends">
+    <a href="http://www.ucloud.cn/?utm_source=zanzhu&amp;utm_campaign=testerhome&amp;utm_medium=display&amp;utm_content=yejiao&amp;ytag=testerhome_logo" target="_blank" rel="twipsy" style="display:inline-block;margin-right:5px;" data-original-title="本站服务器由 Ucloud 赞助"><img src="https://testerhome.com/photo/2016/4ce97c93f9433f654884c4839408327a.png" style="height:28px"></a>
+
+    <a href="http://www.sendcloud.net/" target="_blank" rel="twipsy" style="display:inline-block;margin-right:5px;" data-original-title="邮件服务由 SendCloud 赞助"><img src="https://testerhome.com/uploads/photo/2017/0f9fb5db-2472-4430-9f7e-6c051f28c3c9.png" style="height:28px"></a>
+
+  </div>
+</div>
+
+
+
+    </div>
+  </footer>
+
+<script type="text/javascript" data-turbolinks-eval="false">
+    App.root_url = "https://testerhome.com/";
+    App.asset_url = "";
+    App.twemoji_url = "https://twemoji.maxcdn.com/2";
+    App.locale = "en";
+</script>
+
+<script>
+    ga('create', 'UA-45014075-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+<div class="zoom-overlay"></div>
+</div>
+
+
+</body></html>

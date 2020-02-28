@@ -1,0 +1,129 @@
+[ {
+  "buildOrder" : 49,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/49/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 48,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/48/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 47,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/47/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 46,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/46/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 45,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/45/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 44,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/44/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 43,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/43/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 42,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/42/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 41,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/41/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 40,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/40/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 39,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/39/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 1
+  }
+}, {
+  "buildOrder" : 38,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/38/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 37,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/37/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 36,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/36/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 35,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/35/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 3
+  }
+}, {
+  "buildOrder" : 34,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/34/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 3
+  }
+}, {
+  "buildOrder" : 33,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/33/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 3
+  }
+}, {
+  "buildOrder" : 32,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/32/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 3
+  }
+}, {
+  "buildOrder" : 31,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/31/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 3
+  }
+}, {
+  "buildOrder" : 30,
+  "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/30/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 3
+  }
+} ]

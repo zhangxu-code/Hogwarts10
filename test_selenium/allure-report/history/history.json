@@ -1,0 +1,301 @@
+{
+  "74a3d7cffede43ae99d1c2d98df454c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "1cfdc95fdde72a3e",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/35/allure/#testresult/1cfdc95fdde72a3e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887713154,
+        "stop" : 1582887718295,
+        "duration" : 5141
+      }
+    }, {
+      "uid" : "683a07300cd14ee8",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/34/allure/#testresult/683a07300cd14ee8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887373745,
+        "stop" : 1582887378826,
+        "duration" : 5081
+      }
+    }, {
+      "uid" : "d12718267593b1fc",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/33/allure/#testresult/d12718267593b1fc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887191600,
+        "stop" : 1582887196743,
+        "duration" : 5143
+      }
+    }, {
+      "uid" : "1f3796d40f997c6",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/32/allure/#testresult/1f3796d40f997c6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582886998919,
+        "stop" : 1582887004070,
+        "duration" : 5151
+      }
+    }, {
+      "uid" : "ac7078756230640b",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/31/allure/#testresult/ac7078756230640b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582886930412,
+        "stop" : 1582886935565,
+        "duration" : 5153
+      }
+    } ]
+  },
+  "438a616e9171b61cfabe465b39b38708" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 8,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 13
+    },
+    "items" : [ {
+      "uid" : "d728e87b0819f778",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/49/allure/#testresult/d728e87b0819f778",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582897069025,
+        "stop" : 1582897076701,
+        "duration" : 7676
+      }
+    }, {
+      "uid" : "2a053118b9b7c0dc",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/48/allure/#testresult/2a053118b9b7c0dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=80.0.3987.122)",
+      "time" : {
+        "start" : 1582896015460,
+        "stop" : 1582896050687,
+        "duration" : 35227
+      }
+    }, {
+      "uid" : "1244c1ee81966b38",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/47/allure/#testresult/1244c1ee81966b38",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=80.0.3987.122)",
+      "time" : {
+        "start" : 1582896015460,
+        "stop" : 1582896050687,
+        "duration" : 35227
+      }
+    }, {
+      "uid" : "4f3fdbc9bdfbd60e",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/46/allure/#testresult/4f3fdbc9bdfbd60e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=80.0.3987.122)",
+      "time" : {
+        "start" : 1582896015460,
+        "stop" : 1582896050687,
+        "duration" : 35227
+      }
+    }, {
+      "uid" : "4e25e62272368807",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/45/allure/#testresult/4e25e62272368807",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=80.0.3987.122)",
+      "time" : {
+        "start" : 1582895883970,
+        "stop" : 1582895897088,
+        "duration" : 13118
+      }
+    } ]
+  },
+  "d0ec6c2cd7e93d6fae56c6812c4a73cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "df311bb149294aac",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/49/allure/#testresult/df311bb149294aac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582896242306,
+        "stop" : 1582896245523,
+        "duration" : 3217
+      }
+    }, {
+      "uid" : "297bb931370d845",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/48/allure/#testresult/297bb931370d845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582896242306,
+        "stop" : 1582896245523,
+        "duration" : 3217
+      }
+    }, {
+      "uid" : "88765d275c139daf",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/47/allure/#testresult/88765d275c139daf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582896143142,
+        "stop" : 1582896146363,
+        "duration" : 3221
+      }
+    }, {
+      "uid" : "147b4aca9892b802",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/46/allure/#testresult/147b4aca9892b802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582888028182,
+        "stop" : 1582888031466,
+        "duration" : 3284
+      }
+    }, {
+      "uid" : "80dbd19407098971",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/45/allure/#testresult/80dbd19407098971",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582888028182,
+        "stop" : 1582888031466,
+        "duration" : 3284
+      }
+    } ]
+  },
+  "98544ac09d157d707025817d439c49f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "7aa9912f8b6930ab",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/35/allure/#testresult/7aa9912f8b6930ab",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887721032,
+        "stop" : 1582887726176,
+        "duration" : 5144
+      }
+    }, {
+      "uid" : "63de1d981a70759c",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/34/allure/#testresult/63de1d981a70759c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887381322,
+        "stop" : 1582887386473,
+        "duration" : 5151
+      }
+    }, {
+      "uid" : "6c476c2617d98288",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/33/allure/#testresult/6c476c2617d98288",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887200509,
+        "stop" : 1582887205661,
+        "duration" : 5152
+      }
+    }, {
+      "uid" : "5ffbce0ecb895730",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/32/allure/#testresult/5ffbce0ecb895730",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887007585,
+        "stop" : 1582887012729,
+        "duration" : 5144
+      }
+    }, {
+      "uid" : "16cd66cb3bd7fa09",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/31/allure/#testresult/16cd66cb3bd7fa09",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582886938366,
+        "stop" : 1582886943517,
+        "duration" : 5151
+      }
+    } ]
+  },
+  "129926b8959aae2dd662a3326ab858e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "b3f96c536a03d1d8",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/35/allure/#testresult/b3f96c536a03d1d8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887729748,
+        "stop" : 1582887734898,
+        "duration" : 5150
+      }
+    }, {
+      "uid" : "42c9efb0e7d85bc6",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/34/allure/#testresult/42c9efb0e7d85bc6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887389065,
+        "stop" : 1582887394219,
+        "duration" : 5154
+      }
+    }, {
+      "uid" : "188b59fa08abe039",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/33/allure/#testresult/188b59fa08abe039",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887208230,
+        "stop" : 1582887213383,
+        "duration" : 5153
+      }
+    }, {
+      "uid" : "6c79da2acf9ec25b",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/32/allure/#testresult/6c79da2acf9ec25b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582887015292,
+        "stop" : 1582887020448,
+        "duration" : 5156
+      }
+    }, {
+      "uid" : "632fdc12917115ed",
+      "reportUrl" : "http://localhost:8091/job/Pytest_TestDemo_Selenium_git/31/allure/#testresult/632fdc12917115ed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotVisibleException: Message: element not visible\n  (Session info: chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.19.76-linuxkit x86_64)",
+      "time" : {
+        "start" : 1582886946124,
+        "stop" : 1582886951269,
+        "duration" : 5145
+      }
+    } ]
+  }
+}
